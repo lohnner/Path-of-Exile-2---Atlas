@@ -479,3 +479,9 @@
 .item-protected-mark{display:inline-flex;align-items:center;margin-left:6px;vertical-align:1px;padding:2px 6px;border:1px solid #7fb4ff;background:#1b3f8f;color:#fff;font-size:8px;letter-spacing:.04em;white-space:nowrap}
 .item-trade-button{border:0;background:transparent;padding:0 2px;font-size:14px;line-height:1;cursor:pointer;opacity:.6;filter:grayscale(1);transition:.15s}.item-trade-button:hover,.item-trade-button:focus-visible{opacity:1;filter:none}
 .name-lang-switch{display:flex;gap:4px;margin-right:10px}.name-lang-button{display:grid;place-items:center;width:34px;height:26px;padding:2px;border:1px solid #33372f;border-radius:3px;background:#191b19;cursor:pointer;opacity:.45;filter:saturate(.4);transition:.15s}.name-lang-button svg{width:26px;height:18px;border-radius:2px;display:block}.name-lang-button:hover{opacity:.85;filter:none}.name-lang-button.active{opacity:1;filter:none;border-color:var(--gold);box-shadow:0 0 0 1px rgba(198,168,107,.35)}
+
+/* Botão para escolher a pasta dos filtros (outro PC / outro usuário) */
+.loot-filter-save-group{display:inline-flex;flex-wrap:wrap;gap:6px;align-items:center}
+.loot-filter-folder-button{min-height:34px;padding:0 11px;border:1px solid #554a32;border-radius:3px;background:#222019;color:#d8c28f;font:9px var(--sans);cursor:pointer}
+.loot-filter-folder-button:hover{border-color:var(--gold);color:#f0dfb4}
+.loot-filter-folder-button:disabled{cursor:wait;opacity:.6}

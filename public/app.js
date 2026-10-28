@@ -1259,6 +1259,21 @@ async function showLootFilterFiles(target = "filter-loot-file-list") {
     list.innerHTML = '<div class="loot-filter-file-message">' + htmlEscape(error.message || "Não consegui listar os filtros do jogo.") + '</div>';
   }
 }
+// Em outro PC a pasta "My Games" pode estar em outro lugar: o jogador escolhe e o servidor guarda.
+async function pickLootFilterFolder(button) {
+  const target = button.dataset.filterList || "filter-loot-file-list";
+  button.disabled = true;
+  showToast("Escolha a pasta dos filtros na janela que abriu.");
+  try {
+    const response = await fetch("/api/loot-filter/folder", { method: "POST" });
+    const result = await response.json();
+    if (!response.ok) throw new Error(result.error || "Não consegui usar essa pasta.");
+    if (result.canceled) return;
+    await showLootFilterFiles(target);
+    showToast((result.filters || []).length ? "Pasta salva. Escolha o seu filtro na lista." : "Pasta salva, mas não tem nenhum arquivo .filter nela.");
+  } catch (error) { showToast(error.message || "Não consegui usar essa pasta."); }
+  finally { button.disabled = false; }
+}
 async function loadLootFilterFile(name, listTarget = "filter-loot-file-list") {
   try {
     const response = await fetch("/api/loot-filter/load", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ name }) });
@@ -2121,6 +2136,7 @@ function bindUI() {
   document.querySelectorAll("[data-filter-new-cancel]").forEach(button => button.addEventListener("click", cancelNewLootFilterDraft));
   document.querySelectorAll("[data-filter-import]").forEach(input => input.addEventListener("change", event => { importLootFilterFile(event.target.files && event.target.files[0]); event.target.value = ""; }));
   document.querySelectorAll("[data-filter-save]").forEach(button => button.addEventListener("click", saveLootFilterFile));
+  document.querySelectorAll("[data-filter-folder]").forEach(button => button.addEventListener("click", () => pickLootFilterFolder(button)));
   document.querySelectorAll("[data-hide-rarity]").forEach(input => input.addEventListener("change", () => {
     const rarity = input.dataset.hideRarity;
     if (ALWAYS_VISIBLE_LOOT_RARITIES.has(rarity)) { input.checked = false; return; }

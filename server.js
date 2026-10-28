@@ -1,5 +1,6 @@
 import { createServer } from "node:http";
 import { createHash } from "node:crypto";
+import { execFile } from "node:child_process";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -405,6 +406,11 @@ function gameFilterDirectoryCandidates() {
 }
 
 async function findGameFilterDirectory() {
+  // Pasta escolhida pelo jogador no botão "Encontrar pasta do filtro" tem prioridade.
+  const { filterDirectory } = await readSettings();
+  if (filterDirectory) {
+    try { if ((await fs.stat(filterDirectory)).isDirectory()) return { directory: filterDirectory, foundDirectory: true, chosen: true }; } catch {}
+  }
   const candidates = gameFilterDirectoryCandidates();
   let existingDirectory = null;
   for (const candidate of candidates) {
@@ -433,6 +439,18 @@ function safeNewFilterFilename(value) {
   if (!stem || stem.length > 100 || path.basename(name) !== name || /[<>:"/\\|?*\x00-\x1f]/.test(name) || /[. ]$/.test(stem)) return "";
   if (/^(con|prn|aux|nul|com[1-9]|lpt[1-9])(?:\.|$)/i.test(stem)) return "";
   return name;
+}
+
+// Abre a janela do Windows para escolher uma pasta; devolve "" se o jogador cancelar.
+function pickFolderDialog(initial) {
+  const script = path.join(ROOT, "tools", "pick-folder.ps1");
+  const args = ["-NoProfile", "-STA", "-ExecutionPolicy", "Bypass", "-File", script, initial || "", "Selecione a pasta dos filtros do Path of Exile 2"];
+  return new Promise((resolve, reject) => {
+    execFile("powershell.exe", args, { windowsHide: true, timeout: 600_000 }, (error, stdout) => {
+      if (error) return reject(new Error("Não consegui abrir a janela de seleção de pasta."));
+      resolve(String(stdout || "").trim());
+    });
+  });
 }
 
 async function listGameFilters() {
@@ -675,10 +693,19 @@ const server = createServer(async (request, response) => {
         valid = names.some(name => /^PathOfExile.*\.exe$/i.test(name));
       } catch {}
       if (!valid) return sendJson(response, 400, { error: "Não encontrei Bundles2 e o executável do jogo nessa pasta." });
-      await fs.writeFile(SETTINGS_FILE, JSON.stringify({ gamePath: candidate }, null, 2), "utf8");
+      await fs.writeFile(SETTINGS_FILE, JSON.stringify({ ...(await readSettings()), gamePath: candidate }, null, 2), "utf8");
       return sendJson(response, 200, { ok: true, game: await gameStatus() });
     }
     if (url.pathname === "/api/loot-filters" && request.method === "GET") {
+      return sendJson(response, 200, await listGameFilters());
+    }
+    if (url.pathname === "/api/loot-filter/folder" && request.method === "POST") {
+      const current = await findGameFilterDirectory();
+      const chosen = await pickFolderDialog(current.directory);
+      if (!chosen) return sendJson(response, 200, { canceled: true });
+      try { if (!(await fs.stat(chosen)).isDirectory()) throw new Error(); }
+      catch { return sendJson(response, 400, { error: "Essa pasta não existe." }); }
+      await fs.writeFile(SETTINGS_FILE, JSON.stringify({ ...(await readSettings()), filterDirectory: chosen }, null, 2), "utf8");
       return sendJson(response, 200, await listGameFilters());
     }
     if (url.pathname === "/api/loot-filter/load" && request.method === "POST") {

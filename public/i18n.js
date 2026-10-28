@@ -17,7 +17,7 @@
     "Filtro compartilhado": "Shared filter", "Use o perfil para limitar os itens exibidos na Wiki.": "Use the profile to limit the items shown in the Wiki.",
     "Todos os equipamentos": "All equipment", "Abrir editor completo ↗": "Open full editor ↗", "Selecionar filtro do jogo": "Select game filter",
     "Criar novo filtro do zero": "Create new filter from scratch", "Importar filtro": "Import filter", "Nenhum filtro carregado": "No filter loaded",
-    "Salvar por cima do arquivo": "Overwrite file", "Nome do novo filtro": "New filter name", "Criar e salvar filtro": "Create and save filter", "Cancelar": "Cancel",
+    "Salvar por cima do arquivo": "Overwrite file", "📁 Encontrar pasta do filtro": "📁 Find filter folder","Nome do novo filtro": "New filter name", "Criar e salvar filtro": "Create and save filter", "Cancelar": "Cancel",
     "O arquivo será criado na pasta de filtros do jogo. A extensão .filter será adicionada automaticamente.": "The file will be created in the game's filter folder. The .filter extension is added automatically.",
     "arquivo selecionado": "file selected", "Filtro da Wiki": "Wiki filter", "Ex.: Meu filtro de evasão": "E.g. My evasion filter",
     // Busca, tipo, defesa, ordenação
