@@ -43,7 +43,12 @@ const LOOT_HIGHLIGHT_PRESETS = [
   { id: "emerald", label: "Esmeralda", textColor: "#0a2b1a", borderColor: "#0a2b1a", backgroundColor: "#3ddc84", effectColor: "Green", iconShape: "Pentagon" },
   { id: "sunset", label: "Pôr do sol", textColor: "#3a0d2e", borderColor: "#3a0d2e", backgroundColor: "#ff8a5c", effectColor: "Orange", iconShape: "Circle" },
   { id: "royal", label: "Real", textColor: "#ffd27a", borderColor: "#ffd27a", backgroundColor: "#2a1458", effectColor: "Purple", iconShape: "Kite" },
-  { id: "obsidian", label: "Obsidiana", textColor: "#ffffff", borderColor: "#ffffff", backgroundColor: "#000000", effectColor: "White", iconShape: "Cross" }
+  { id: "obsidian", label: "Obsidiana", textColor: "#ffffff", borderColor: "#ffffff", backgroundColor: "#000000", effectColor: "White", iconShape: "Cross" },
+  { id: "aurora", label: "Aurora", textColor: "#c8fff4", borderColor: "#7affd8", backgroundColor: "#0c3a4a", effectColor: "Cyan", iconShape: "Square" },
+  { id: "rosegold", label: "Ouro rosé", textColor: "#fff1e6", borderColor: "#f7c59f", backgroundColor: "#8c3b55", effectColor: "Pink", iconShape: "Diamond" },
+  { id: "lavender", label: "Lavanda", textColor: "#2b1240", borderColor: "#2b1240", backgroundColor: "#c9a7ff", effectColor: "Purple", iconShape: "Circle" },
+  { id: "storm", label: "Tempestade", textColor: "#fff59a", borderColor: "#ffe94d", backgroundColor: "#12204a", effectColor: "Yellow", iconShape: "Triangle" },
+  { id: "jade", label: "Jade imperial", textColor: "#fff3c4", borderColor: "#e8c35a", backgroundColor: "#0f5a46", effectColor: "Green", iconShape: "UpsideDownHouse" }
 ];
 const DEFAULT_LOOT_HIGHLIGHT_STYLE = {
   textColor: "#ffd27a", borderColor: "#ffd27a", backgroundColor: "#3a2a0c", backgroundOpacity: 240, fontSize: 40,
