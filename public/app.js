@@ -425,6 +425,7 @@ function changePage(page, catalogMode) {
   if (page === "planner" && window.onPlannerPage) window.onPlannerPage();
   if (page === "vault" && window.onVaultPage) window.onVaultPage();
   if (page === "gems" && window.onGemsPage) window.onGemsPage();
+  if (page === "atlas" && window.onAtlasPage) window.onAtlasPage();
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 function bindNavigation() {

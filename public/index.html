@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="/planner.css">
   <link rel="stylesheet" href="/vault.css">
   <link rel="stylesheet" href="/gems.css">
+  <link rel="stylesheet" href="/atlas.css">
 </head>
 <body>
   <div class="app-shell">
@@ -30,6 +31,7 @@
         <button class="nav-link" data-page="market">Market</button>
         <button class="nav-link" data-page="planner">Build</button>
         <button class="nav-link" data-page="vault">Cofre</button>
+          <button class="nav-link" data-page="atlas">Atlas<span class="nav-update-dot" id="nav-update-dot" hidden></span></button>
       </nav>
       <div class="top-actions">
         <div class="name-lang-switch" role="group" aria-label="Idioma dos nomes dos itens">
@@ -197,6 +199,10 @@
         <div id="vault"><div class="filter-empty">Abrindo o cofre…</div></div>
       </section>
 
+      <section class="page" id="page-atlas">
+        <div id="atlas"><div class="filter-empty">Verificando a versão…</div></div>
+      </section>
+
       <section class="page" id="page-planner">
         <div id="planner"><div class="filter-empty">Carregando builds…</div></div>
       </section>
@@ -219,5 +225,6 @@
   <script src="/planner.js" defer></script>
   <script src="/vault.js" defer></script>
   <script src="/gems.js" defer></script>
+  <script src="/atlas.js" defer></script>
 </body>
 </html>

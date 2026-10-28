@@ -14,3 +14,7 @@ settings.json
 
 node_modules/
 *.log
+
+# Versão instalada pelo atualizador
+atlas-version.json
+*.atlas-update

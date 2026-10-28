@@ -4,6 +4,7 @@ import { execFile } from "node:child_process";
 import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { createUpdater } from "./updater.js";
 
 const ROOT = path.dirname(fileURLToPath(import.meta.url));
 const PUBLIC_DIR = path.join(ROOT, "public");
@@ -18,6 +19,7 @@ const PT_MODS_INDEX = "https://poe2database.com/pt-br/mods";
 const PT_ITEM_PAGE_SKIP = new Set(["Items", "Act", "Ascendancy_class", "Crafting", "Desecrated_Modifiers", "Economy", "EndGame", "Keywords", "Modifiers", "news", "passive-skill-tree", "patreon", "privacy", "Quest"]);
 const DATASETS = ["base_items", "mods", "uniques", "skill_gems", "wiki_unique_items", "pt_items", "pt_mods", "pt_runes", "pt_omens", "pt_essences", "pt_abyss"];
 let syncPromise = null;
+const updater = createUpdater(ROOT);
 
 async function readJson(file, fallback = null) {
   try { return JSON.parse(await fs.readFile(file, "utf8")); }
@@ -696,6 +698,17 @@ const server = createServer(async (request, response) => {
       await fs.writeFile(SETTINGS_FILE, JSON.stringify({ ...(await readSettings()), gamePath: candidate }, null, 2), "utf8");
       return sendJson(response, 200, { ok: true, game: await gameStatus() });
     }
+    if (url.pathname === "/api/update/check" && request.method === "GET") {
+      return sendJson(response, 200, await updater.check(url.searchParams.get("force") === "1"));
+    }
+    if (url.pathname === "/api/update/apply" && request.method === "POST") {
+      const result = await updater.apply();
+      sendJson(response, 200, { ...result, restarting: true });
+      return updater.restart(fileURLToPath(import.meta.url));
+    }
+    if (url.pathname === "/api/update/ping" && request.method === "GET") {
+      return sendJson(response, 200, { ok: true });
+    }
     if (url.pathname === "/api/loot-filters" && request.method === "GET") {
       return sendJson(response, 200, await listGameFilters());
     }
@@ -841,6 +854,12 @@ const server = createServer(async (request, response) => {
   }
 });
 
+// Depois de uma atualização o servidor antigo ainda pode estar soltando a porta: tenta de novo por alguns segundos.
+let listenAttempts = 0;
+server.on("error", error => {
+  if (error.code === "EADDRINUSE" && process.env.ATLAS_RESTARTED && ++listenAttempts < 30) return setTimeout(() => server.listen(PORT, "127.0.0.1"), 500);
+  throw error;
+});
 server.listen(PORT, "127.0.0.1", () => {
   console.log("Atlas local de Path of Exile 2 em http://127.0.0.1:" + PORT);
   fs.access(META_FILE).catch(() => synchronize().then(() => console.log("Dados iniciais sincronizados.")).catch(error => console.error("Sincronização inicial falhou:", error.message)));

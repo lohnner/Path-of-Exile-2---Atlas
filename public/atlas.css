@@ -1,0 +1,31 @@
+/* Aba Atlas: atualização do programa */
+.atlas-page{max-width:820px;margin:0 auto;padding:34px 0 60px}
+.atlas-head{margin-bottom:22px}
+.atlas-kicker{font:600 10px var(--sans);letter-spacing:.18em;color:var(--gold)}
+.atlas-head h2{margin:8px 0 6px;font-size:40px;font-weight:400}
+.atlas-head h2 em{color:var(--gold)}
+.atlas-head p{margin:0;color:#a59c88;font-size:13px;line-height:1.5}
+.atlas-card{padding:22px;border:1px solid #3b3424;border-radius:4px;background:linear-gradient(180deg,#1c1a15,#141310)}
+.atlas-versions{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin-bottom:16px}
+.atlas-versions div{padding:12px 14px;border:1px solid #2f2a1e;border-radius:3px;background:#100f0c;display:flex;flex-direction:column;gap:4px;min-width:0}
+.atlas-versions small{font:10px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:#8a8170}
+.atlas-versions b{color:#f0dfb4;font-size:15px;overflow-wrap:anywhere}
+.atlas-versions span{color:#8a8170;font-size:11px}
+.atlas-status{padding:11px 14px;border-left:3px solid #554a32;background:#191712;color:#cfc4a8;font-size:13px;margin-bottom:16px}
+.atlas-status.is-new{border-color:var(--gold);color:#f0dfb4}
+.atlas-status.is-ok{border-color:#5fae6a}
+.atlas-status.is-error{border-color:#c4553f;color:#f0b4a6}
+.atlas-status.is-working{border-color:#4fb4ff}
+.atlas-actions{display:flex;flex-wrap:wrap;gap:8px}
+.atlas-button{min-height:38px;padding:0 16px;border:1px solid #554a32;border-radius:3px;background:#222019;color:#d8c28f;font:11px var(--sans);cursor:pointer}
+.atlas-button:not(:disabled):hover{border-color:var(--gold);color:#f0dfb4}
+.atlas-button.is-primary{background:#3a2f17;border-color:var(--gold);color:#ffe7a8}
+.atlas-button:disabled{cursor:not-allowed;opacity:.45}
+.atlas-repo{display:inline-block;margin-top:14px;color:#a59c88;font-size:12px}
+.atlas-repo:hover{color:var(--gold)}
+.nav-update-dot{display:inline-block;width:7px;height:7px;margin-left:5px;border-radius:50%;background:var(--gold);box-shadow:0 0 6px var(--gold);vertical-align:top}
+.nav-update-dot[hidden]{display:none}
+.atlas-prompt-backdrop{position:fixed;inset:0;z-index:200;display:grid;place-items:center;padding:16px;background:rgba(0,0,0,.6)}
+.atlas-prompt{max-width:420px;width:100%;padding:24px;border:1px solid var(--gold);border-radius:4px;background:#17150f;box-shadow:0 20px 60px rgba(0,0,0,.6)}
+.atlas-prompt h3{margin:8px 0 8px;font-size:22px;font-weight:400;color:#f0dfb4}
+.atlas-prompt p{margin:0 0 18px;color:#cfc4a8;font-size:13px;line-height:1.5}
