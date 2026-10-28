@@ -71,14 +71,24 @@ export function createUpdater(root) {
     return pending;
   }
 
+  // Versão desta cópia: a anotada pelo atualizador ou, numa pasta com Git, o último commit dela.
+  async function installedVersion(target) {
+    const saved = await readInstalled();
+    if (!(await isDevCopy())) return saved;
+    const head = await devHead();
+    if (head && head === target.sha) return target;
+    if (saved) return saved;
+    if (!head) return null;
+    const commit = await github(API + "/commits/" + head).catch(() => null);
+    return commit ? { sha: head, treeSha: commit.commit.tree.sha, message: String(commit.commit.message || "").split("\n")[0], date: commit.commit.committer && commit.commit.committer.date } : null;
+  }
+
   async function check(force = false) {
     if (!force && cached && Date.now() - cached.at < CHECK_CACHE_MS) return cached.result;
-    const [target, installed, dev] = await Promise.all([latest(), readInstalled(), isDevCopy()]);
+    const target = await latest();
+    const installed = await installedVersion(target);
     let result;
-    if (dev) {
-      const head = await devHead();
-      result = { devCopy: true, available: Boolean(head) && head !== target.sha, files: 0, current: { sha: head }, latest: target };
-    } else if (installed && installed.sha === target.sha) {
+    if (installed && installed.sha === target.sha) {
       result = { available: false, files: 0, current: installed, latest: target };
     } else {
       const files = await pendingFiles(target, installed);
@@ -93,8 +103,8 @@ export function createUpdater(root) {
   }
 
   async function apply() {
-    if (await isDevCopy()) throw new Error("Esta é a cópia de quem desenvolve (tem Git). Atualize pelo GitHub Desktop.");
-    const [target, installed] = await Promise.all([latest(), readInstalled()]);
+    const target = await latest();
+    const installed = await installedVersion(target);
     const files = await pendingFiles(target, installed);
     // Baixa tudo primeiro; só grava depois que todos chegaram, para não deixar o programa pela metade.
     const downloads = [];
