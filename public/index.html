@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111211">
+  <title>Atlas de Wraeclast — Path of Exile 2</title>
+  <link rel="stylesheet" href="/app.css">
+  <link rel="stylesheet" href="/character.css">
+  <link rel="stylesheet" href="/home.css">
+  <link rel="stylesheet" href="/market.css">
+  <link rel="stylesheet" href="/planner.css">
+  <link rel="stylesheet" href="/vault.css">
+  <link rel="stylesheet" href="/gems.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <a class="brand" href="#inicio" aria-label="Atlas de Wraeclast, início">
+        <span class="brand-mark">✦</span>
+        <span><strong>WRAECLAST</strong><small>ATLAS DE ITENS</small></span>
+      </a>
+      <nav class="main-nav" aria-label="Navegação principal">
+        <button class="nav-link active" data-page="home">Início</button>
+        <button class="nav-link" data-page="wiki" data-catalog-mode="equipment">Equipamentos</button>
+        <button class="nav-link" data-page="wiki" data-catalog-mode="weapons">Armas</button>
+        <button class="nav-link" data-page="wiki" data-catalog-mode="items">Itens</button>
+        <button class="nav-link" data-page="gems">Gemas</button>
+        <button class="nav-link" data-page="filter">Filtro</button>
+        <button class="nav-link" data-page="market">Market</button>
+        <button class="nav-link" data-page="planner">Build</button>
+        <button class="nav-link" data-page="vault">Cofre</button>
+      </nav>
+      <div class="top-actions">
+        <div class="name-lang-switch" role="group" aria-label="Idioma dos nomes dos itens">
+          <button type="button" class="name-lang-button" data-name-lang="pt" title="Nomes dos itens em português" aria-label="Português"><svg viewBox="0 0 28 20" aria-hidden="true"><rect width="28" height="20" fill="#009c3b"/><path d="M14 2.2 25.6 10 14 17.8 2.4 10z" fill="#ffdf00"/><circle cx="14" cy="10" r="4.6" fill="#002776"/><path d="M9.6 9.1c2.9-.7 6.2-.3 8.8 1.2" stroke="#fff" stroke-width=".8" fill="none"/></svg></button>
+          <button type="button" class="name-lang-button" data-name-lang="en" title="Nomes originais do jogo (inglês)" aria-label="English"><svg viewBox="0 0 28 20" aria-hidden="true"><rect width="28" height="20" fill="#fff"/><g fill="#b22234"><rect width="28" height="1.54"/><rect y="3.08" width="28" height="1.54"/><rect y="6.15" width="28" height="1.54"/><rect y="9.23" width="28" height="1.54"/><rect y="12.31" width="28" height="1.54"/><rect y="15.38" width="28" height="1.54"/><rect y="18.46" width="28" height="1.54"/></g><rect width="12" height="10.77" fill="#3c3b6e"/><g fill="#fff"><circle cx="2" cy="2" r=".55"/><circle cx="5" cy="2" r=".55"/><circle cx="8" cy="2" r=".55"/><circle cx="3.5" cy="4" r=".55"/><circle cx="6.5" cy="4" r=".55"/><circle cx="9.5" cy="4" r=".55"/><circle cx="2" cy="6" r=".55"/><circle cx="5" cy="6" r=".55"/><circle cx="8" cy="6" r=".55"/><circle cx="3.5" cy="8" r=".55"/><circle cx="6.5" cy="8" r=".55"/><circle cx="9.5" cy="8" r=".55"/></g></svg></button>
+        </div>
+        <span class="connection-dot" id="connection-dot"></span>
+        <span class="connection-label" id="connection-label">Conectando</span>
+        <button class="sync-button" id="sync-button"><span class="sync-icon">↻</span> Sincronizar</button>
+      </div>
+    </header>
+
+    <main>
+      <section class="page active" id="page-home">
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <div class="eyebrow"><span class="eyebrow-line"></span> SEU COMPANHEIRO DE EXÍLIO</div>
+            <h1>Conhecimento de<br><em>Wraeclast.</em> À mão.</h1>
+            <p>Consulte bases, itens únicos, gemas e os modificadores que podem aparecer em cada equipamento — tudo em um só lugar.</p>
+            <div class="hero-actions">
+              <button class="primary-button" data-page="wiki" data-catalog-mode="equipment">Explorar equipamentos <span>↗</span></button>
+              <button class="text-button" id="home-sync">Atualizar dados <span>↻</span></button>
+            </div>
+            <div class="source-note"><span class="mini-spark">✦</span> Dados comunitários derivados dos arquivos do jogo</div>
+          </div>
+          <div class="hero-banner"><img src="/assets/home-banner.webp" alt="Arte de Path of Exile 2"></div>
+        </div>
+
+        <div class="section-heading">
+          <div><div class="eyebrow">O ARQUIVO</div><h2>O mundo, em detalhes</h2></div>
+          <div class="section-rule"></div>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card"><span class="stat-icon">⌖</span><div><strong id="home-base-count">—</strong><span>Bases de itens</span></div></article>
+          <article class="stat-card"><span class="stat-icon">⌘</span><div><strong id="home-mod-count">—</strong><span>Modificadores</span></div></article>
+          <article class="stat-card"><span class="stat-icon">♢</span><div><strong id="home-unique-count">—</strong><span>Itens únicos</span></div></article>
+          <article class="stat-card"><span class="stat-icon">✧</span><div><strong id="home-gem-count">—</strong><span>Gemas catalogadas</span></div></article>
+        </div>
+        <div class="home-lower-grid">
+          <article class="panel-card source-card">
+            <div class="panel-title"><span class="panel-glyph">◈</span><div><h3>Sincronização</h3><p>Estado da biblioteca local</p></div></div>
+            <div class="status-row"><span>Jogo instalado</span><b id="game-state">Verificando…</b></div>
+            <div class="status-row"><span>Versão dos dados</span><b id="source-version">—</b></div>
+            <div class="status-row"><span>Última sincronização</span><b id="sync-date">—</b></div>
+            <div class="status-row"><span>Nomes em português</span><b id="localized-item-count">—</b></div>
+            <div class="status-path" id="game-path">Procurando instalação do jogo…</div>
+            <div class="source-warning" id="source-warning" hidden></div>
+          </article>
+          <article class="panel-card feature-card">
+            <div class="feature-top"><span class="panel-glyph">⌁</span><span class="feature-tag">NA WIKI</span></div>
+            <h3>Encontre sua próxima peça</h3>
+            <p>Pesquise por nome, classe ou atributo. Abra qualquer base para ver valores, requisitos e os prefixos e sufixos compatíveis.</p>
+            <button class="inline-link" data-page="wiki" data-catalog-mode="equipment">Abrir equipamentos <span>→</span></button>
+            <div class="feature-lines" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+          </article>
+        </div>
+        <div class="footer-note">O atlas consulta dados de referência. Ele não altera arquivos do jogo nem acessa sua conta.</div>
+      </section>
+
+      <section class="page" id="page-wiki">
+        <div class="wiki-heading">
+          <div><div class="eyebrow"><span class="eyebrow-line"></span> CÓDICE DE EXÍLIO</div><h1>Wiki de <em id="wiki-mode-title">equipamentos</em></h1><p id="wiki-mode-description">Consulte as bases de armas, armaduras, escudos, acessórios, aljavas, focos e demais itens equipáveis.</p></div>
+          <div class="wiki-source-links"><a class="wiki-source-link" href="https://poe2db.tw/pt/Items" target="_blank" rel="noreferrer">Catálogo PT-BR <span>↗</span></a><a class="wiki-source-link" href="https://www.poe2wiki.net/" target="_blank" rel="noreferrer">Wiki comunitária <span>↗</span></a></div>
+        </div>
+        <section class="loot-filter-tools wiki-loot-filter-tools" id="wiki-loot-filter-tools" aria-label="Filtro da Wiki">
+          <div class="filter-inline-heading"><div class="panel-title"><span class="panel-glyph">⌁</span><div><h3>Filtro compartilhado</h3><p>Use o perfil para limitar os itens exibidos na Wiki.</p></div></div><span class="filter-shared-profile" data-filter-profile-display>Todos os equipamentos</span><button class="filter-open-manager" data-page="filter" type="button">Abrir editor completo ↗</button></div>
+          <div class="loot-filter-toolbar"><div class="loot-filter-file-wrap"><button class="loot-filter-file-button" data-filter-open data-filter-list="wiki-filter-file-list" type="button">Selecionar filtro do jogo</button><button class="loot-filter-new-button" data-filter-new type="button">Criar novo filtro do zero</button><label class="loot-filter-import-label">Importar filtro<input data-filter-import type="file" accept=".filter,text/plain"></label><span class="loot-filter-file-name" data-filter-file-name>Nenhum filtro carregado</span></div><button class="loot-filter-download" data-filter-save type="button" disabled>Salvar por cima do arquivo</button></div>
+          <div class="loot-filter-new-form" data-new-filter-form hidden><label>Nome do novo filtro<input data-new-filter-name type="text" maxlength="100" placeholder="Ex.: Meu filtro de evasão" autocomplete="off"></label><div class="loot-filter-new-actions"><button class="loot-filter-download" data-filter-create-save type="button" disabled>Criar e salvar filtro</button><button class="loot-filter-new-cancel" data-filter-new-cancel type="button">Cancelar</button></div><small>O arquivo será criado na pasta de filtros do jogo. A extensão .filter será adicionada automaticamente.</small></div>
+          <div class="loot-filter-file-list" id="wiki-filter-file-list" data-filter-file-list hidden></div>
+        </section>
+        <div class="wiki-controls">
+          <label class="search-box"><span>⌕</span><input id="search-input" type="search" placeholder="Buscar item, classe ou atributo…" autocomplete="off"><kbd>⌘ K</kbd></label>
+          <button class="hide-uniques-toggle" id="hide-uniques-toggle" type="button" aria-pressed="false" title="Ocultar itens únicos dos resultados">Ocultar únicos</button>
+          <label class="item-type-filter"><span>TIPO</span><select id="item-class-filter" aria-label="Filtrar por tipo de item"><option value="all">Todos os tipos</option></select></label>
+          <label class="item-type-filter defense-type-filter"><span>DEFESA</span><select id="defense-filter" aria-label="Filtrar por combinação de defesas"><option value="all">Todas as defesas</option><option value="armour">Armadura</option><option value="evasion">Evasão</option><option value="energy_shield">Escudo de Energia</option><option value="armour,evasion">Armadura + Evasão</option><option value="armour,energy_shield">Armadura + Escudo de Energia</option><option value="evasion,energy_shield">Evasão + Escudo de Energia</option><option value="armour,evasion,energy_shield">Armadura + Evasão + Escudo de Energia</option></select></label>
+          <button class="filter-button" id="filter-toggle"><span>☷</span> Filtros <span class="filter-chevron">⌄</span></button>
+        </div>
+        <div class="wiki-layout">
+          <aside class="category-rail" id="category-rail" aria-label="Categorias"></aside>
+          <div class="results-column">
+              <div class="results-header"><div><strong id="results-count">Carregando catálogo…</strong><span id="results-subtitle">Sincronizando dados locais</span></div><label class="sort-label" for="sort-select"><span>ORDENAR</span><select id="sort-select" aria-label="Ordenar itens"><option value="item_level_asc" selected>Nível do item · menor</option><option value="name_asc">Nome · A–Z</option><option value="name_desc">Nome · Z–A</option><option value="item_level_desc">Nível do item · maior</option><option value="required_level_desc">Nível requerido · maior</option><option value="required_level_asc">Nível requerido · menor</option><option value="type">Tipo de equipamento</option><option value="category">Categoria e raridade</option></select></label></div>
+            <div class="item-grid" id="item-grid"></div>
+            <button class="load-more" id="load-more" hidden>Carregar mais</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="page" id="page-filter">
+        <div class="wiki-heading filter-page-heading">
+          <div><div class="eyebrow"><span class="eyebrow-line"></span> CENTRAL DE REGRAS</div><h1>Monte seu <em>filtro</em></h1><p>Crie regras para bases, defesas, níveis, raridades e modificadores. O mesmo perfil atualiza os resultados da Wiki.</p></div>
+          <div class="filter-profile-seal"><span>✦</span><b>ATLAS<br>FILTER LAB</b></div>
+        </div>
+
+        <div class="filter-overview">
+          <div><span class="filter-overview-kicker">PERFIL EM TEMPO REAL</span><strong id="filter-profile-title">Todos os equipamentos</strong><small id="filter-profile-summary">Sem restrições de classe ou defesa.</small></div>
+          <div class="filter-overview-stats"><span><b id="filter-match-count">0</b><small>bases compatíveis</small></span><span><b id="filter-blocked-mod-count">0</b><small>modificadores bloqueados</small></span><span><b id="filter-hidden-base-count">0</b><small>bases ocultadas</small></span><span><b id="filter-highlight-base-count">0</b><small>bases destacadas</small></span></div>
+        </div>
+
+        <nav class="filter-subnav" aria-label="Seções do filtro">
+          <a href="#filter-sec-file"><b>1</b>Arquivo</a><a href="#filter-sec-highlight"><b>2</b>Destaques</a><a href="#filter-sec-hide"><b>3</b>Ocultar</a><a href="#filter-sec-profile"><b>4</b>Perfil e afixos</a><a href="#filter-sec-preview"><b>5</b>Prévia</a>
+        </nav>
+
+        <section class="loot-filter-tools filter-file-tools" id="filter-sec-file" aria-label="Arquivo de filtro do jogo">
+          <div class="filter-file-heading"><div class="panel-title"><span class="panel-glyph">▤</span><div><h3>Arquivo do jogo</h3><p>Carregue um filtro da pasta do PoE 2, edite as regras e salve por cima do mesmo arquivo.</p></div></div><span class="filter-file-badge" id="filter-file-state">SEM ARQUIVO</span></div>
+          <div class="loot-filter-toolbar"><div class="loot-filter-file-wrap"><button class="loot-filter-file-button" data-filter-open data-filter-list="filter-loot-file-list" type="button">Selecionar filtro do jogo</button><button class="loot-filter-new-button" data-filter-new type="button">Criar novo filtro do zero</button><label class="loot-filter-import-label">Importar filtro<input data-filter-import type="file" accept=".filter,text/plain"></label><span class="loot-filter-file-name" data-filter-file-name>Nenhum filtro carregado</span></div><button class="loot-filter-download" data-filter-save type="button" disabled>Salvar por cima do arquivo</button></div>
+          <div class="loot-filter-new-form" data-new-filter-form hidden><label>Nome do novo filtro<input data-new-filter-name type="text" maxlength="100" placeholder="Ex.: Meu filtro de evasão" autocomplete="off"></label><div class="loot-filter-new-actions"><button class="loot-filter-download" data-filter-create-save type="button" disabled>Criar e salvar filtro</button><button class="loot-filter-new-cancel" data-filter-new-cancel type="button">Cancelar</button></div><small>O arquivo será criado na pasta de filtros do jogo. A extensão .filter será adicionada automaticamente.</small></div>
+          <div class="loot-filter-file-list" id="filter-loot-file-list" data-filter-file-list hidden></div>
+        </section>
+
+        <section class="filter-section" id="filter-sec-highlight">
+          <div class="filter-section-heading"><span>DESTAQUES</span><small>Cores, ícone no minimapa, feixe e som para o que você quer ver no chão.</small></div>
+          <section class="filter-builder-card filter-bulk-card">
+            <div class="filter-builder-title"><span class="filter-step">01</span><div><h2>Destacar em grupo</h2><p>Escolha uma categoria, desmarque o que não quiser e aplique o mesmo visual em todos de uma vez.</p></div></div>
+            <p class="filter-empty" data-filter-needs-file>Selecione ou crie um filtro no passo Arquivo para destacar itens.</p>
+            <div class="filter-bulk" id="filter-bulk" hidden></div>
+          </section>
+        </section>
+
+        <section class="filter-section" id="filter-sec-hide">
+          <div class="filter-section-heading"><span>OCULTAR</span><small>O que não deve aparecer no chão. Destaques sempre vencem as ocultações.</small></div>
+          <section class="filter-builder-card">
+            <div class="filter-builder-title"><span class="filter-step">02</span><div><h2>Regras de ocultação</h2><p>Por raridade, por tipo e defesa, ou por classe inteira de arma e acessório.</p></div></div>
+            <p class="filter-empty" data-filter-needs-file>Selecione ou crie um filtro no passo Arquivo para ocultar itens.</p>
+          <div class="loot-filter-settings" data-filter-settings hidden><fieldset class="loot-filter-rarities"><legend>Raridades para ocultar no jogo</legend><label><input type="checkbox" data-hide-rarity="Normal">Normal</label><label><input type="checkbox" data-hide-rarity="Magic">Mágica</label><label><input type="checkbox" data-hide-rarity="Rare">Rara</label><label><input type="checkbox" data-hide-rarity="Unique">Única</label></fieldset><p class="filter-rarity-note">Vale só para armas, equipamentos e patuás (peitorais, elmos, luvas, botas, escudos, anéis, amuletos, cintos, patuás). Orbes, runas, poções e outros itens não são afetados.</p><label class="filter-field loot-filter-tier"><span>SEMPRE MOSTRAR ITENS NÃO IDENTIFICADOS A PARTIR DO NÍVEL</span><select data-min-show-tier><option value="">Desligado</option><option value="2">Nível 2 ou maior</option><option value="3">Nível 3 ou maior</option><option value="4">Nível 4 ou maior</option><option value="5">Só nível 5</option></select><small>O nível aparece no nome do item no chão (Mágicos e Raros não identificados). Esses itens aparecem mesmo com a raridade oculta, mas não voltam se o tipo ou a base foi ocultado.</small></label><section class="loot-filter-equipment-hide"><div class="loot-filter-equipment-hide-heading"><b>OCULTAR EQUIPAMENTOS POR TIPO E DEFESA</b><small>Marque os tipos e as defesas que quer ocultar. A regra vale para cada combinação marcada.</small></div><div class="loot-filter-check-group"><div class="loot-filter-check-head"><span>TIPO DE EQUIPAMENTO</span><button type="button" data-check-all="equipClass">Marcar todos</button><button type="button" data-check-none="equipClass">Desmarcar todos</button></div><div class="loot-filter-checks" data-check-list="equipClass"></div></div><div class="loot-filter-check-group"><div class="loot-filter-check-head"><span>DEFESA DA BASE</span><button type="button" data-check-all="equipDefense">Marcar todos</button><button type="button" data-check-none="equipDefense">Desmarcar todos</button></div><div class="loot-filter-checks" data-check-list="equipDefense"></div></div><fieldset class="loot-filter-rarities loot-filter-equipment-rarities"><legend>Raridades para ocultar</legend><label><input type="checkbox" data-hide-equipment-rarity="Normal" checked>Normal</label><label><input type="checkbox" data-hide-equipment-rarity="Magic" checked>Mágica</label><label><input type="checkbox" data-hide-equipment-rarity="Rare">Rara</label><label><input type="checkbox" data-hide-equipment-rarity="Unique">Única</label></fieldset><button class="loot-filter-equipment-add" data-add-equipment-profile type="button">Ocultar selecionados</button><div class="loot-filter-equipment-rules" data-equipment-hide-rules><span class="filter-empty-inline">Nenhuma regra de equipamento por defesa.</span></div></section><section class="loot-filter-class-hide"><div class="loot-filter-equipment-hide-heading"><b>OCULTAR ARMAS E ACESSÓRIOS POR TIPO</b><small>Marque os tipos que quer ocultar. A regra vale para todas as bases do tipo, inclusive as adicionadas ao jogo depois.</small></div><div class="loot-filter-check-group"><div class="loot-filter-check-head"><span>ARMAS</span><button type="button" data-check-all="weaponClass">Marcar todos</button><button type="button" data-check-none="weaponClass">Desmarcar todos</button></div><div class="loot-filter-checks" data-check-list="weaponClass"></div></div><div class="loot-filter-check-group"><div class="loot-filter-check-head"><span>ACESSÓRIOS E PATUÁS</span><button type="button" data-check-all="accessoryClass">Marcar todos</button><button type="button" data-check-none="accessoryClass">Desmarcar todos</button></div><div class="loot-filter-checks" data-check-list="accessoryClass"></div></div><fieldset class="loot-filter-rarities"><legend>Raridades para ocultar</legend><label><input type="checkbox" data-hide-class-rarity="Normal" checked>Normal</label><label><input type="checkbox" data-hide-class-rarity="Magic" checked>Mágica</label><label><input type="checkbox" data-hide-class-rarity="Rare">Rara</label><label><input type="checkbox" data-hide-class-rarity="Unique">Única</label></fieldset><button class="loot-filter-equipment-add" data-add-class-hide type="button">Ocultar selecionados</button><div class="loot-filter-equipment-rules" data-class-hide-rules></div></section><div class="loot-filter-selection"><span data-filter-hidden-count>0 bases e classes marcadas</span><button data-filter-clear-all type="button">Limpar ocultações</button></div><p>As regras criadas aqui são acrescentadas ao início do arquivo, para o jogo aplicá-las antes das regras existentes.</p></div>
+          </section>
+        </section>
+
+        <section class="filter-section" id="filter-sec-profile">
+        <div class="filter-section-heading"><span>PERFIL E AFIXOS</span><small>Limita o que a Wiki mostra e bloqueia modificadores indesejados.</small></div>
+        <div class="filter-builder-grid">
+          <section class="filter-builder-card filter-scope-card">
+            <div class="filter-builder-title"><span class="filter-step">03</span><div><h2>Escolha as bases</h2><p>Defina qual equipamento aparece na Wiki. Raros e Únicos continuam visíveis mesmo fora do perfil.</p></div></div>
+            <label class="filter-field" for="filter-class-select"><span>TIPO DE EQUIPAMENTO</span><select id="filter-class-select"><option value="all">Todos os equipamentos</option></select></label>
+            <label class="filter-field" for="filter-base-select"><span>BASE PARA LIMITAR AFIXOS <i>opcional</i></span><select id="filter-base-select"><option value="all">Todas as bases do tipo</option></select></label>
+            <div class="filter-field"><span>DEFESAS QUE A BASE DEVE TER <i>todas as marcadas</i></span><div class="filter-defense-options"><label><input type="checkbox" data-required-defense="armour">Armadura</label><label><input type="checkbox" data-required-defense="evasion">Evasão</label><label><input type="checkbox" data-required-defense="energy_shield">Escudo de energia</label></div><div class="filter-presets"><span>ATALHOS</span><button type="button" data-filter-preset="body-evasion">Peitoral de evasão</button><button type="button" data-filter-preset="body-hybrid">Peitoral armadura + evasão</button><button type="button" data-filter-preset="armour">Só armadura</button><button type="button" data-filter-preset="clear">Limpar perfil</button></div></div>
+            <div class="filter-field"><span>NÍVEL DE DROP DA BASE <i>opcional</i></span><div class="filter-level-range"><label><small>Mínimo</small><input id="filter-min-drop-level" type="number" min="1" max="100" placeholder="1"></label><span>até</span><label><small>Máximo</small><input id="filter-max-drop-level" type="number" min="1" max="100" placeholder="100"></label></div></div>
+            <div class="filter-scope-note"><span>◈</span><p>Marcar Armadura <b>e</b> Evasão exige as duas defesas. O perfil limita os resultados da Wiki. No jogo, só as bases marcadas explicitamente em “Ocultar esta base” recebem regra de ocultação.</p></div>
+          </section>
+
+          <section class="filter-builder-card filter-affix-card">
+            <div class="filter-builder-title"><span class="filter-step">04</span><div><h2>Bloqueie afixos</h2><p>Escolha prefixos ou sufixos que não quer nos itens que caírem.</p></div></div>
+            <div class="filter-affix-toolbar"><div class="filter-affix-tabs"><button type="button" data-affix-type="all" class="active">Todos</button><button type="button" data-affix-type="prefix">Prefixos</button><button type="button" data-affix-type="suffix">Sufixos</button></div><label class="filter-affix-search"><span>⌕</span><input id="filter-affix-search" type="search" placeholder="Ex.: espinho, resistência, vida…" autocomplete="off"></label></div>
+            <div class="filter-affix-scope" id="filter-affix-scope">Escopo: todos os equipamentos</div>
+            <div class="filter-affix-results-heading"><span id="filter-affix-result-count">Busque um afixo para começar.</span><button id="filter-block-matches" type="button" disabled>Bloquear resultados</button></div>
+            <div class="filter-affix-results" id="filter-affix-results"><div class="filter-empty">Sincronize os dados do jogo para carregar prefixos e sufixos.</div></div>
+            <div class="filter-excluded-section"><div class="filter-excluded-heading"><span>MODIFICADORES BLOQUEADOS</span><b id="filter-excluded-count">0</b></div><div class="filter-excluded-list" id="filter-excluded-list"><span class="filter-empty-inline">Nenhum modificador bloqueado.</span></div></div>
+            <p class="filter-affix-note">O arquivo usa o nome original em inglês do modificador na condição <code>HasExplicitMod</code>. Os nomes e efeitos aparecem aqui em português quando há tradução; confira a prévia para revisar o escopo antes de salvar.</p>
+          </section>
+        </div>
+        </section>
+
+        <details class="filter-preview-card" id="filter-sec-preview"><summary><span><b>Prévia das regras geradas</b><small>Confira o trecho antes de salvar no jogo.</small></span><span class="filter-preview-chevron">⌄</span></summary><pre id="filter-output-preview">Selecione ou importe um arquivo de filtro para montar a prévia.</pre></details>
+        <p class="character-disclaimer">Este editor altera somente o arquivo de filtro selecionado. Ele não modifica os arquivos de dados do Path of Exile 2.</p>
+      </section>
+
+      <section class="page" id="page-market">
+        <div id="market"><div class="filter-empty">Carregando valores…</div></div>
+      </section>
+
+      <section class="page" id="page-gems">
+        <div id="gems"><div class="filter-empty">Carregando gemas…</div></div>
+      </section>
+
+      <section class="page" id="page-vault">
+        <div id="vault"><div class="filter-empty">Abrindo o cofre…</div></div>
+      </section>
+
+      <section class="page" id="page-planner">
+        <div id="planner"><div class="filter-empty">Carregando builds…</div></div>
+      </section>
+    </main>
+
+    <footer class="app-footer"><span>WRAECLAST <i>•</i> ATLAS LOCAL</span><span>PATH OF EXILE 2 <i>•</i> REFERÊNCIA DA COMUNIDADE</span></footer>
+  </div>
+
+  <div class="detail-backdrop" id="detail-backdrop" hidden>
+    <aside class="detail-panel" role="dialog" aria-modal="true" aria-labelledby="detail-title">
+      <div class="detail-top"><span class="detail-kicker">REGISTRO DO CÓDICE</span><button id="detail-close" class="close-button" aria-label="Fechar">×</button></div>
+      <div id="detail-content"></div>
+    </aside>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="/i18n.js" defer></script>
+  <script src="/item-images.js" defer></script>
+  <script src="/app.js" defer></script>
+  <script src="/market.js" defer></script>
+  <script src="/planner.js" defer></script>
+  <script src="/vault.js" defer></script>
+  <script src="/gems.js" defer></script>
+</body>
+</html>

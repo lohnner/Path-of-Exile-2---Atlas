@@ -1,0 +1,122 @@
+{
+ "Metadata/Items/Currency/AbyssalBenchTicketArmourLow": {
+  "name": "Costelas Roídas",
+  "englishName": "Gnawed Rib",
+  "level": null,
+  "effects": [
+   "Profana uma armadura rara"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/AbyssalBenchTicketWeapon": {
+  "name": "Mandíbula Conservada",
+  "englishName": "Preserved Jawbone",
+  "level": null,
+  "effects": [
+   "Profana uma arma ou aljava rara"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/AbyssalBenchTicketWeaponLow": {
+  "name": "Mandíbula Roída",
+  "englishName": "Gnawed Jawbone",
+  "level": null,
+  "effects": [
+   "Profana uma arma ou aljava rara"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/AbyssalBenchTicketWeaponHigh": {
+  "name": "Mandíbula Antiga",
+  "englishName": "Ancient Jawbone",
+  "level": null,
+  "effects": [
+   "Profana uma arma ou aljava rara"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/AbyssalBenchTicketJewelleryLow": {
+  "name": "Clavícula Roída",
+  "englishName": "Gnawed Collarbone",
+  "level": null,
+  "effects": [
+   "Profana um amuleto, anel ou cinto raro"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/AbyssalBenchTicketArmour": {
+  "name": "Costelas Conservadas",
+  "englishName": "Preserved Rib",
+  "level": null,
+  "effects": [
+   "Profana uma armadura rara"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/AbyssalBenchTicketArmourHigh": {
+  "name": "Costelas Antigas",
+  "englishName": "Ancient Rib",
+  "level": null,
+  "effects": [
+   "Profana uma armadura rara"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/AbyssalBenchTicketJewellery": {
+  "name": "Clavícula Conservada",
+  "englishName": "Preserved Collarbone",
+  "level": null,
+  "effects": [
+   "Profana um amuleto, anel ou cinto raro"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/AbyssalBenchTicketJewelleryHigh": {
+  "name": "Clavícula Antiga",
+  "englishName": "Ancient Collarbone",
+  "level": null,
+  "effects": [
+   "Profana um amuleto, anel ou cinto raro"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/AbyssalBenchTicketJewel": {
+  "name": "Crânio Conservado",
+  "englishName": "Preserved Cranium",
+  "level": null,
+  "effects": [
+   "Profana uma joia rara"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/AbyssalBenchTicketWaystone": {
+  "name": "Vértebra Conservada",
+  "englishName": "Preserved Vertebrae",
+  "level": null,
+  "effects": [
+   "Profana uma Pedra-guia rara"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/AbyssalBenchTicketBreach": {
+  "name": "Clavícula Alterada",
+  "englishName": "Altered Collarbone",
+  "level": null,
+  "effects": [
+   "Profana um amuleto, anel ou cinto raro, com chance de obter modificadores sobrenaturais"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ }
+}

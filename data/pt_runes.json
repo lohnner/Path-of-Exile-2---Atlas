@@ -1,0 +1,1807 @@
+{
+ "Metadata/Items/SoulCores/RuneCold": {
+  "name": "Runa Glacial",
+  "englishName": "Glacial Rune",
+  "level": 15,
+  "effects": [
+   "Arma Marcial: Adiciona de 6 a 10 de dano de frio",
+   "Varinha ou Cajado: Ganha 8% do dano como dano de frio adicional",
+   "Armaduras: +14% à resistência a dano de frio"
+  ],
+  "bonded": [
+   "Arma Marcial: Acúmulo de congelamento aumentado em 30%",
+   "Varinha ou Cajado: Acúmulo de congelamento aumentado em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneLife": {
+  "name": "Runa Corporal",
+  "englishName": "Body Rune",
+  "level": 15,
+  "effects": [
+   "Arma Marcial: 4% do dano de ataques físicos é roubado como vida",
+   "Varinha ou Cajado: +40 de escudo de energia máximo",
+   "Armaduras: +45 de vida máxima"
+  ],
+  "bonded": [
+   "Arma Marcial: Vida máxima aumentada em 5%",
+   "Varinha ou Cajado: Vida máxima aumentada em 5%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneFire": {
+  "name": "Runa do Deserto",
+  "englishName": "Desert Rune",
+  "level": 15,
+  "effects": [
+   "Arma Marcial: Adiciona de 7 a 11 de dano de fogo",
+   "Varinha ou Cajado: Ganha 8% do dano como dano de fogo adicional",
+   "Armaduras: +14% à resistência a dano de fogo"
+  ],
+  "bonded": [
+   "Arma Marcial: Intensidade de incêndio aumentada em 30%",
+   "Varinha ou Cajado: Intensidade de incêndio aumentada em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneMana": {
+  "name": "Runa Mental",
+  "englishName": "Mind Rune",
+  "level": 15,
+  "effects": [
+   "Arma Marcial: 3% do dano de ataques físicos é roubado como mana",
+   "Varinha ou Cajado: +60 de mana máximo",
+   "Armaduras: +30 de mana máximo"
+  ],
+  "bonded": [
+   "Arma Marcial: Mana máximo aumentado em 5%",
+   "Varinha ou Cajado: Mana máximo aumentado em 5%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneLightning": {
+  "name": "Runa da Tempestade",
+  "englishName": "Storm Rune",
+  "level": 15,
+  "effects": [
+   "Arma Marcial: Adiciona de 1 a 20 de dano elétrico",
+   "Varinha ou Cajado: Ganha 8% do dano como dano elétrico adicional",
+   "Armaduras: +14% à resistência a dano elétrico"
+  ],
+  "bonded": [
+   "Arma Marcial: Intensidade das eletrificações infligidas por você aumentada em 30%",
+   "Varinha ou Cajado: Intensidade das eletrificações infligidas por você aumentada em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneEnhance": {
+  "name": "Runa de Ferro",
+  "englishName": "Iron Rune",
+  "level": 15,
+  "effects": [
+   "Arma Marcial: Dano físico aumentado em 16%",
+   "Varinha ou Cajado: Dano mágico aumentado em 25%",
+   "Armaduras: Armadura, evasão e escudo de energia aumentados em 16%"
+  ],
+  "bonded": [
+   "Arma Marcial: Efeito de armadura destruída aumentado em 20%",
+   "Varinha ou Cajado: Quebra a armadura ao causar golpes críticos com magias equivalente a 12% do dano físico causado",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneLifeRecovery": {
+  "name": "Runa do Renascimento",
+  "englishName": "Rebirth Rune",
+  "level": 15,
+  "effects": [
+   "Arma Marcial: Ganha 25 de vida por inimigo morto",
+   "Varinha ou Cajado: Velocidade de recarga do escudo de energia aumentada em 8%",
+   "Armaduras: Regenera 0.4% de vida máxima por segundo"
+  ],
+  "bonded": [
+   "Arma Marcial: Regenera 0.4% de vida máxima por segundo",
+   "Varinha ou Cajado: 8% do dano sofrido é recuperado como vida",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneManaRecovery": {
+  "name": "Runa da Inspiração",
+  "englishName": "Inspiration Rune",
+  "level": 15,
+  "effects": [
+   "Arma Marcial: Ganha 20 de mana por inimigo morto",
+   "Varinha ou Cajado: Velocidade de regeneração de mana aumentada em 25%",
+   "Armaduras: Velocidade de regeneração de mana aumentada em 15%"
+  ],
+  "bonded": [
+   "Arma Marcial: 12% dos custos de mana da habilidade convertidos em custos de vida",
+   "Varinha ou Cajado: Eficiência de custo de mana aumentada em 16%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneStun": {
+  "name": "Runa de Pedra",
+  "englishName": "Stone Rune",
+  "level": 15,
+  "effects": [
+   "Arma Marcial: Causa acúmulo de atordoamento aumentado em 30%",
+   "Varinha ou Cajado: Ganhe resistência-limite a atordoamento adicional equivalente a 12% do escudo de energia máximo",
+   "Armaduras: +75 à resistência-limite a atordoamento"
+  ],
+  "bonded": [
+   "Arma Marcial: Dano contra inimigos imobilizados aumentado em 40%",
+   "Varinha ou Cajado: Acúmulo de imobilização aumentado em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneAccuracy": {
+  "name": "Runa da Visão",
+  "englishName": "Vision Rune",
+  "level": 15,
+  "effects": [
+   "Arma Marcial: +90 de precisão",
+   "Varinha ou Cajado: Chance de golpe crítico de magias aumentada em 20%",
+   "Armaduras: Mana e vida recuperados de frascos aumentados em 12%"
+  ],
+  "bonded": [
+   "Arma Marcial: Ataques têm +1% à chance de golpe crítico",
+   "Varinha ou Cajado: Bônus de dano crítico aumentado em 25%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneFireLesser": {
+  "name": "Runa do Deserto Menor",
+  "englishName": "Lesser Desert Rune",
+  "level": null,
+  "effects": [
+   "Arma Marcial: Adiciona de 4 a 6 de dano de fogo",
+   "Varinha ou Cajado: Ganha 6% do dano como dano de fogo adicional",
+   "Armaduras: +10% à resistência a dano de fogo"
+  ],
+  "bonded": [
+   "Arma Marcial: Intensidade de incêndio aumentada em 30%",
+   "Varinha ou Cajado: Intensidade de incêndio aumentada em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneColdLesser": {
+  "name": "Runa Glacial Menor",
+  "englishName": "Lesser Glacial Rune",
+  "level": null,
+  "effects": [
+   "Arma Marcial: Adiciona de 3 a 5 de dano de frio",
+   "Varinha ou Cajado: Ganha 6% do dano como dano de frio adicional",
+   "Armaduras: +10% à resistência a dano de frio"
+  ],
+  "bonded": [
+   "Arma Marcial: Acúmulo de congelamento aumentado em 30%",
+   "Varinha ou Cajado: Acúmulo de congelamento aumentado em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneLightningLesser": {
+  "name": "Runa da Tempestade Menor",
+  "englishName": "Lesser Storm Rune",
+  "level": null,
+  "effects": [
+   "Arma Marcial: Adiciona de 1 a 10 de dano elétrico",
+   "Varinha ou Cajado: Ganha 6% do dano como dano elétrico adicional",
+   "Armaduras: +10% à resistência a dano elétrico"
+  ],
+  "bonded": [
+   "Arma Marcial: Intensidade das eletrificações infligidas por você aumentada em 30%",
+   "Varinha ou Cajado: Intensidade das eletrificações infligidas por você aumentada em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneEnhanceLesser": {
+  "name": "Runa de Ferro Menor",
+  "englishName": "Lesser Iron Rune",
+  "level": null,
+  "effects": [
+   "Arma Marcial: Dano físico aumentado em 14%",
+   "Varinha ou Cajado: Dano mágico aumentado em 20%",
+   "Armaduras: Armadura, evasão e escudo de energia aumentados em 14%"
+  ],
+  "bonded": [
+   "Arma Marcial: Efeito de armadura destruída aumentado em 20%",
+   "Varinha ou Cajado: Quebra a armadura ao causar golpes críticos com magias equivalente a 12% do dano físico causado",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneLifeLesser": {
+  "name": "Runa Corporal Menor",
+  "englishName": "Lesser Body Rune",
+  "level": null,
+  "effects": [
+   "Arma Marcial: 3% do dano de ataques físicos é roubado como vida",
+   "Varinha ou Cajado: +30 de escudo de energia máximo",
+   "Armaduras: +30 de vida máxima"
+  ],
+  "bonded": [
+   "Arma Marcial: Vida máxima aumentada em 5%",
+   "Varinha ou Cajado: Vida máxima aumentada em 5%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneManaLesser": {
+  "name": "Runa Mental Menor",
+  "englishName": "Lesser Mind Rune",
+  "level": null,
+  "effects": [
+   "Arma Marcial: 2% do dano de ataques físicos é roubado como mana",
+   "Varinha ou Cajado: +45 de mana máximo",
+   "Armaduras: +20 de mana máximo"
+  ],
+  "bonded": [
+   "Arma Marcial: Mana máximo aumentado em 5%",
+   "Varinha ou Cajado: Mana máximo aumentado em 5%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneLifeRecoveryLesser": {
+  "name": "Runa do Renascimento Menor",
+  "englishName": "Lesser Rebirth Rune",
+  "level": null,
+  "effects": [
+   "Arma Marcial: Ganha 15 de vida por inimigo morto",
+   "Varinha ou Cajado: Velocidade de recarga do escudo de energia aumentada em 6%",
+   "Armaduras: Regenera 0.35% de vida máxima por segundo"
+  ],
+  "bonded": [
+   "Arma Marcial: Regenera 0.4% de vida máxima por segundo",
+   "Varinha ou Cajado: 8% do dano sofrido é recuperado como vida",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneManaRecoveryLesser": {
+  "name": "Runa da Inspiração Menor",
+  "englishName": "Lesser Inspiration Rune",
+  "level": null,
+  "effects": [
+   "Arma Marcial: Ganha 10 de mana por inimigo morto",
+   "Varinha ou Cajado: Velocidade de regeneração de mana aumentada em 20%",
+   "Armaduras: Velocidade de regeneração de mana aumentada em 12%"
+  ],
+  "bonded": [
+   "Arma Marcial: 12% dos custos de mana da habilidade convertidos em custos de vida",
+   "Varinha ou Cajado: Eficiência de custo de mana aumentada em 16%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneStunLesser": {
+  "name": "Runa de Pedra Menor",
+  "englishName": "Lesser Stone Rune",
+  "level": null,
+  "effects": [
+   "Arma Marcial: Causa acúmulo de atordoamento aumentado em 20%",
+   "Varinha ou Cajado: Ganhe resistência-limite a atordoamento adicional equivalente a 10% do escudo de energia máximo",
+   "Armaduras: +50 à resistência-limite a atordoamento"
+  ],
+  "bonded": [
+   "Arma Marcial: Dano contra inimigos imobilizados aumentado em 40%",
+   "Varinha ou Cajado: Acúmulo de imobilização aumentado em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneAccuracyLesser": {
+  "name": "Runa da Visão Menor",
+  "englishName": "Lesser Vision Rune",
+  "level": null,
+  "effects": [
+   "Arma Marcial: +60 de precisão",
+   "Varinha ou Cajado: Chance de golpe crítico de magias aumentada em 16%",
+   "Armaduras: Mana e vida recuperados de frascos aumentados em 8%"
+  ],
+  "bonded": [
+   "Arma Marcial: Ataques têm +1% à chance de golpe crítico",
+   "Varinha ou Cajado: Bônus de dano crítico aumentado em 25%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneFireGreater": {
+  "name": "Runa do Deserto Maior",
+  "englishName": "Greater Desert Rune",
+  "level": 30,
+  "effects": [
+   "Arma Marcial: Adiciona de 13 a 16 de dano de fogo",
+   "Varinha ou Cajado: Ganha 10% do dano como dano de fogo adicional",
+   "Armaduras: +18% à resistência a dano de fogo"
+  ],
+  "bonded": [
+   "Arma Marcial: Intensidade de incêndio aumentada em 30%",
+   "Varinha ou Cajado: Intensidade de incêndio aumentada em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneColdGreater": {
+  "name": "Runa Glacial Maior",
+  "englishName": "Greater Glacial Rune",
+  "level": 30,
+  "effects": [
+   "Arma Marcial: Adiciona de 9 a 15 de dano de frio",
+   "Varinha ou Cajado: Ganha 10% do dano como dano de frio adicional",
+   "Armaduras: +18% à resistência a dano de frio"
+  ],
+  "bonded": [
+   "Arma Marcial: Acúmulo de congelamento aumentado em 30%",
+   "Varinha ou Cajado: Acúmulo de congelamento aumentado em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneLightningGreater": {
+  "name": "Runa da Tempestade Maior",
+  "englishName": "Greater Storm Rune",
+  "level": 30,
+  "effects": [
+   "Arma Marcial: Adiciona de 1 a 30 de dano elétrico",
+   "Varinha ou Cajado: Ganha 10% do dano como dano elétrico adicional",
+   "Armaduras: +18% à resistência a dano elétrico"
+  ],
+  "bonded": [
+   "Arma Marcial: Intensidade das eletrificações infligidas por você aumentada em 30%",
+   "Varinha ou Cajado: Intensidade das eletrificações infligidas por você aumentada em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneEnhanceGreater": {
+  "name": "Runa de Ferro Maior",
+  "englishName": "Greater Iron Rune",
+  "level": 30,
+  "effects": [
+   "Arma Marcial: Dano físico aumentado em 18%",
+   "Varinha ou Cajado: Dano mágico aumentado em 30%",
+   "Armaduras: Armadura, evasão e escudo de energia aumentados em 18%"
+  ],
+  "bonded": [
+   "Arma Marcial: Efeito de armadura destruída aumentado em 20%",
+   "Varinha ou Cajado: Quebra a armadura ao causar golpes críticos com magias equivalente a 12% do dano físico causado",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneLifeGreater": {
+  "name": "Runa Corporal Maior",
+  "englishName": "Greater Body Rune",
+  "level": 30,
+  "effects": [
+   "Arma Marcial: 5% do dano de ataques físicos é roubado como vida",
+   "Varinha ou Cajado: +50 de escudo de energia máximo",
+   "Armaduras: +60 de vida máxima"
+  ],
+  "bonded": [
+   "Arma Marcial: Vida máxima aumentada em 5%",
+   "Varinha ou Cajado: Vida máxima aumentada em 5%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneManaGreater": {
+  "name": "Runa Mental Maior",
+  "englishName": "Greater Mind Rune",
+  "level": 30,
+  "effects": [
+   "Arma Marcial: 4% do dano de ataques físicos é roubado como mana",
+   "Varinha ou Cajado: +75 de mana máximo",
+   "Armaduras: +40 de mana máximo"
+  ],
+  "bonded": [
+   "Arma Marcial: Mana máximo aumentado em 5%",
+   "Varinha ou Cajado: Mana máximo aumentado em 5%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneLifeRecoveryGreater": {
+  "name": "Runa do Renascimento Maior",
+  "englishName": "Greater Rebirth Rune",
+  "level": 30,
+  "effects": [
+   "Arma Marcial: Ganha 35 de vida por inimigo morto",
+   "Varinha ou Cajado: Velocidade de recarga do escudo de energia aumentada em 10%",
+   "Armaduras: Regenera 0.45% de vida máxima por segundo"
+  ],
+  "bonded": [
+   "Arma Marcial: Regenera 0.4% de vida máxima por segundo",
+   "Varinha ou Cajado: 8% do dano sofrido é recuperado como vida",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneManaRecoveryGreater": {
+  "name": "Runa da Inspiração Maior",
+  "englishName": "Greater Inspiration Rune",
+  "level": 30,
+  "effects": [
+   "Arma Marcial: Ganha 30 de mana por inimigo morto",
+   "Varinha ou Cajado: Velocidade de regeneração de mana aumentada em 30%",
+   "Armaduras: Velocidade de regeneração de mana aumentada em 18%"
+  ],
+  "bonded": [
+   "Arma Marcial: 12% dos custos de mana da habilidade convertidos em custos de vida",
+   "Varinha ou Cajado: Eficiência de custo de mana aumentada em 16%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneStunGreater": {
+  "name": "Runa de Pedra Maior",
+  "englishName": "Greater Stone Rune",
+  "level": 30,
+  "effects": [
+   "Arma Marcial: Causa acúmulo de atordoamento aumentado em 40%",
+   "Varinha ou Cajado: Ganhe resistência-limite a atordoamento adicional equivalente a 14% do escudo de energia máximo",
+   "Armaduras: +100 à resistência-limite a atordoamento"
+  ],
+  "bonded": [
+   "Arma Marcial: Dano contra inimigos imobilizados aumentado em 40%",
+   "Varinha ou Cajado: Acúmulo de imobilização aumentado em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneAccuracyGreater": {
+  "name": "Runa da Visão Maior",
+  "englishName": "Greater Vision Rune",
+  "level": 30,
+  "effects": [
+   "Arma Marcial: +120 de precisão",
+   "Varinha ou Cajado: Chance de golpe crítico de magias aumentada em 24%",
+   "Armaduras: Mana e vida recuperados de frascos aumentados em 16%"
+  ],
+  "bonded": [
+   "Arma Marcial: Ataques têm +1% à chance de golpe crítico",
+   "Varinha ou Cajado: Bônus de dano crítico aumentado em 25%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneColdPerfect": {
+  "name": "Runa Glacial Perfeita",
+  "englishName": "Perfect Glacial Rune",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: Adiciona de 16 a 20 de dano de frio",
+   "Varinha ou Cajado: Ganha 12% do dano como dano de frio adicional",
+   "Armaduras: +22% à resistência a dano de frio"
+  ],
+  "bonded": [
+   "Arma Marcial: Acúmulo de congelamento aumentado em 30%",
+   "Varinha ou Cajado: Acúmulo de congelamento aumentado em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneFirePerfect": {
+  "name": "Runa do Deserto Perfeita",
+  "englishName": "Perfect Desert Rune",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: Adiciona de 17 a 20 de dano de fogo",
+   "Varinha ou Cajado: Ganha 12% do dano como dano de fogo adicional",
+   "Armaduras: +22% à resistência a dano de fogo"
+  ],
+  "bonded": [
+   "Arma Marcial: Intensidade de incêndio aumentada em 30%",
+   "Varinha ou Cajado: Intensidade de incêndio aumentada em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneLightningPerfect": {
+  "name": "Runa da Tempestade Perfeita",
+  "englishName": "Perfect Storm Rune",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: Adiciona de 1 a 40 de dano elétrico",
+   "Varinha ou Cajado: Ganha 12% do dano como dano elétrico adicional",
+   "Armaduras: +22% à resistência a dano elétrico"
+  ],
+  "bonded": [
+   "Arma Marcial: Intensidade das eletrificações infligidas por você aumentada em 30%",
+   "Varinha ou Cajado: Intensidade das eletrificações infligidas por você aumentada em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneEnhancePerfect": {
+  "name": "Runa de Ferro Perfeita",
+  "englishName": "Perfect Iron Rune",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: Dano físico aumentado em 20%",
+   "Varinha ou Cajado: Dano mágico aumentado em 35%",
+   "Armaduras: Armadura, evasão e escudo de energia aumentados em 20%"
+  ],
+  "bonded": [
+   "Arma Marcial: Efeito de armadura destruída aumentado em 20%",
+   "Varinha ou Cajado: Quebra a armadura ao causar golpes críticos com magias equivalente a 12% do dano físico causado",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneLifePerfect": {
+  "name": "Runa Corporal Perfeita",
+  "englishName": "Perfect Body Rune",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: 6% do dano de ataques físicos é roubado como vida",
+   "Varinha ou Cajado: +60 de escudo de energia máximo",
+   "Armaduras: +75 de vida máxima"
+  ],
+  "bonded": [
+   "Arma Marcial: Vida máxima aumentada em 5%",
+   "Varinha ou Cajado: Vida máxima aumentada em 5%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneManaPerfect": {
+  "name": "Runa Mental Perfeita",
+  "englishName": "Perfect Mind Rune",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: 5% do dano de ataques físicos é roubado como mana",
+   "Varinha ou Cajado: +90 de mana máximo",
+   "Armaduras: +50 de mana máximo"
+  ],
+  "bonded": [
+   "Arma Marcial: Mana máximo aumentado em 5%",
+   "Varinha ou Cajado: Mana máximo aumentado em 5%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneLifeRecoveryPerfect": {
+  "name": "Runa do Renascimento Perfeita",
+  "englishName": "Perfect Rebirth Rune",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: Ganha 45 de vida por inimigo morto",
+   "Varinha ou Cajado: Velocidade de recarga do escudo de energia aumentada em 12%",
+   "Armaduras: Regenera 0.5% de vida máxima por segundo"
+  ],
+  "bonded": [
+   "Arma Marcial: Regenera 0.4% de vida máxima por segundo",
+   "Varinha ou Cajado: 8% do dano sofrido é recuperado como vida",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneStunPerfect": {
+  "name": "Runa de Pedra Perfeita",
+  "englishName": "Perfect Stone Rune",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: Causa acúmulo de atordoamento aumentado em 50%",
+   "Varinha ou Cajado: Ganhe resistência-limite a atordoamento adicional equivalente a 16% do escudo de energia máximo",
+   "Armaduras: +125 à resistência-limite a atordoamento"
+  ],
+  "bonded": [
+   "Arma Marcial: Dano contra inimigos imobilizados aumentado em 40%",
+   "Varinha ou Cajado: Acúmulo de imobilização aumentado em 30%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneManaRecoveryPerfect": {
+  "name": "Runa da Inspiração Perfeita",
+  "englishName": "Perfect Inspiration Rune",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: Ganha 40 de mana por inimigo morto",
+   "Varinha ou Cajado: Velocidade de regeneração de mana aumentada em 35%",
+   "Armaduras: Velocidade de regeneração de mana aumentada em 21%"
+  ],
+  "bonded": [
+   "Arma Marcial: 12% dos custos de mana da habilidade convertidos em custos de vida",
+   "Varinha ou Cajado: Eficiência de custo de mana aumentada em 16%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneAccuracyPerfect": {
+  "name": "Runa da Visão Perfeita",
+  "englishName": "Perfect Vision Rune",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: +150 de precisão",
+   "Varinha ou Cajado: Chance de golpe crítico de magias aumentada em 28%",
+   "Armaduras: Mana e vida recuperados de frascos aumentados em 20%"
+  ],
+  "bonded": [
+   "Arma Marcial: Ataques têm +1% à chance de golpe crítico",
+   "Varinha ou Cajado: Bônus de dano crítico aumentado em 25%",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneStrengthLesser": {
+  "name": "Runa Robusta Menor",
+  "englishName": "Lesser Robust Rune",
+  "level": null,
+  "effects": [
+   "Todos os Equipamentos: +6 à Força"
+  ],
+  "bonded": [
+   "Arma Marcial: Adiciona de 6 a 10 de dano físico aos ataques, Adiciona de 6 a 10 de dano de fogo aos ataques",
+   "Varinha ou Cajado: +100 de armadura",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um equipamento para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneStrength": {
+  "name": "Runa Robusta",
+  "englishName": "Robust Rune",
+  "level": 15,
+  "effects": [
+   "Todos os Equipamentos: +9 à Força"
+  ],
+  "bonded": [
+   "Arma Marcial: Adiciona de 6 a 10 de dano físico aos ataques, Adiciona de 6 a 10 de dano de fogo aos ataques",
+   "Varinha ou Cajado: +100 de armadura",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um equipamento para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneStrengthGreater": {
+  "name": "Runa Robusta Maior",
+  "englishName": "Greater Robust Rune",
+  "level": 30,
+  "effects": [
+   "Todos os Equipamentos: +12 à Força"
+  ],
+  "bonded": [
+   "Arma Marcial: Adiciona de 6 a 10 de dano físico aos ataques, Adiciona de 6 a 10 de dano de fogo aos ataques",
+   "Varinha ou Cajado: +100 de armadura",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um equipamento para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneStrengthPerfect": {
+  "name": "Runa Robusta Perfeita",
+  "englishName": "Perfect Robust Rune",
+  "level": 50,
+  "effects": [
+   "Todos os Equipamentos: +15 à Força"
+  ],
+  "bonded": [
+   "Arma Marcial: Adiciona de 6 a 10 de dano físico aos ataques, Adiciona de 6 a 10 de dano de fogo aos ataques",
+   "Varinha ou Cajado: +100 de armadura",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneDexterityLesser": {
+  "name": "Runa do Perito Menor",
+  "englishName": "Lesser Adept Rune",
+  "level": null,
+  "effects": [
+   "Todos os Equipamentos: +6 à Destreza"
+  ],
+  "bonded": [
+   "Arma Marcial: Adiciona de 6 a 10 de dano físico aos ataques, Adiciona de 1 a 16 de dano elétrico aos ataques",
+   "Varinha ou Cajado: +80 de evasão",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um equipamento para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneDexterity": {
+  "name": "Runa do Perito",
+  "englishName": "Adept Rune",
+  "level": 15,
+  "effects": [
+   "Todos os Equipamentos: +9 à Destreza"
+  ],
+  "bonded": [
+   "Arma Marcial: Adiciona de 6 a 10 de dano físico aos ataques, Adiciona de 1 a 16 de dano elétrico aos ataques",
+   "Varinha ou Cajado: +80 de evasão",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um equipamento para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneDexterityGreater": {
+  "name": "Runa do Perito Maior",
+  "englishName": "Greater Adept Rune",
+  "level": 30,
+  "effects": [
+   "Todos os Equipamentos: +12 à Destreza"
+  ],
+  "bonded": [
+   "Arma Marcial: Adiciona de 6 a 10 de dano físico aos ataques, Adiciona de 1 a 16 de dano elétrico aos ataques",
+   "Varinha ou Cajado: +80 de evasão",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um equipamento para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneDexterityPerfect": {
+  "name": "Runa do Perito Perfeita",
+  "englishName": "Perfect Adept Rune",
+  "level": 50,
+  "effects": [
+   "Todos os Equipamentos: +15 à Destreza"
+  ],
+  "bonded": [
+   "Arma Marcial: Adiciona de 6 a 10 de dano físico aos ataques, Adiciona de 1 a 16 de dano elétrico aos ataques",
+   "Varinha ou Cajado: +80 de evasão",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneIntelligenceLesser": {
+  "name": "Runa da Vontade Menor",
+  "englishName": "Lesser Resolve Rune",
+  "level": null,
+  "effects": [
+   "Todos os Equipamentos: +6 à Inteligência"
+  ],
+  "bonded": [
+   "Arma Marcial: Adiciona de 6 a 10 de dano físico aos ataques, Adiciona de 5 a 8 de dano de frio aos ataques",
+   "Varinha ou Cajado: +50 de escudo de energia máximo",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um equipamento para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneIntelligence": {
+  "name": "Runa da Vontade",
+  "englishName": "Resolve Rune",
+  "level": 15,
+  "effects": [
+   "Todos os Equipamentos: +9 à Inteligência"
+  ],
+  "bonded": [
+   "Arma Marcial: Adiciona de 6 a 10 de dano físico aos ataques, Adiciona de 5 a 8 de dano de frio aos ataques",
+   "Varinha ou Cajado: +50 de escudo de energia máximo",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um equipamento para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneIntelligenceGreater": {
+  "name": "Runa da Vontade Maior",
+  "englishName": "Greater Resolve Rune",
+  "level": 30,
+  "effects": [
+   "Todos os Equipamentos: +12 à Inteligência"
+  ],
+  "bonded": [
+   "Arma Marcial: Adiciona de 6 a 10 de dano físico aos ataques, Adiciona de 5 a 8 de dano de frio aos ataques",
+   "Varinha ou Cajado: +50 de escudo de energia máximo",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um equipamento para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneIntelligencePerfect": {
+  "name": "Runa da Vontade Perfeita",
+  "englishName": "Perfect Resolve Rune",
+  "level": 50,
+  "effects": [
+   "Todos os Equipamentos: +15 à Inteligência"
+  ],
+  "bonded": [
+   "Arma Marcial: Adiciona de 6 a 10 de dano físico aos ataques, Adiciona de 5 a 8 de dano de frio aos ataques",
+   "Varinha ou Cajado: +50 de escudo de energia máximo",
+   "Armaduras: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RunePhysicalLesser": {
+  "name": "Runa Refinada Menor",
+  "englishName": "Lesser Tempered Rune",
+  "level": null,
+  "effects": [
+   "Arma Marcial: Adiciona de 3 a 4 de dano físico",
+   "Armaduras: 6 a 9 de dano de espinhos físico"
+  ],
+  "bonded": [],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RunePhysical": {
+  "name": "Runa Refinada",
+  "englishName": "Tempered Rune",
+  "level": 15,
+  "effects": [
+   "Arma Marcial: Adiciona de 6 a 9 de dano físico",
+   "Armaduras: 14 a 21 de dano de espinhos físico"
+  ],
+  "bonded": [],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RunePhysicalGreater": {
+  "name": "Runa Refinada Maior",
+  "englishName": "Greater Tempered Rune",
+  "level": 30,
+  "effects": [
+   "Arma Marcial: Adiciona de 9 a 12 de dano físico",
+   "Armaduras: 31 a 52 de dano de espinhos físico"
+  ],
+  "bonded": [],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial1": {
+  "name": "Runa da Liderança Maior",
+  "englishName": "Greater Rune of Leadership",
+  "level": null,
+  "effects": [
+   "Arma Marcial: Lacaios ganham 10% do próprio dano físico como dano elétrico adicional",
+   "Armaduras: Lacaios sofrem 10% do dano físico como dano elétrico"
+  ],
+  "bonded": [
+   "Arma Marcial: Lacaios causam dano aumentado em 20%",
+   "Armaduras: Lacaios têm +10% a todas as resistências elementais"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial2": {
+  "name": "Runa do Dízimo Maior",
+  "englishName": "Greater Rune of Tithing",
+  "level": null,
+  "effects": [
+   "Arma Marcial: Habilidades meta ganham energia aumentada em 10%",
+   "Armaduras: 1 a 100 de dano de espinhos elétrico"
+  ],
+  "bonded": [
+   "Arma Marcial: Magias invocadas têm 25% de chance de consumir apenas metade da energia",
+   "Armaduras: Dano de espinhos aumentado em 15%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial3": {
+  "name": "Runa da Diligência Maior",
+  "englishName": "Greater Rune of Alacrity",
+  "level": null,
+  "effects": [
+   "Arma Marcial: Velocidade de habilidades aumentada em 8%",
+   "Armaduras: Penalidades em você expiram 8% mais rápido"
+  ],
+  "bonded": [
+   "Arma Marcial: 15% de aumento na eficiência da reserva das habilidades de arauto",
+   "Armaduras: Resistência-limite a afecções elementais aumentada em 15%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial4": {
+  "name": "Runa da Nobreza Maior",
+  "englishName": "Greater Rune of Nobility",
+  "level": null,
+  "effects": [
+   "Arma Marcial: Ataques com esta arma têm 10% de chance de infligir exposição",
+   "Armaduras: Efeito de eletrificação em você reduzido em 10%"
+  ],
+  "bonded": [
+   "Arma Marcial: Efeito de Exposição aumentado em 20%",
+   "Armaduras: Duração das eletrificações em você reduzida em 10%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial5": {
+  "name": "Runa da Sabedoria da Bruxa da Natureza Assandra",
+  "englishName": "Hedgewitch Assandra's Rune of Wisdom",
+  "level": 50,
+  "effects": [
+   "Varinha ou Cajado: +1 ao nível de todas as habilidades de magia"
+  ],
+  "bonded": [
+   "Varinha ou Cajado: Período de recuperação de arconte expira 30% mais rápido"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma varinha ou um cajado para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outro item de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial6": {
+  "name": "Runa do Céu de Saqawal",
+  "englishName": "Saqawal's Rune of the Sky",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: Ganha 5% do dano como dano adicional de todos os elementos",
+   "Varinha ou Cajado: Ganha 5% do dano como dano adicional de todos os elementos"
+  ],
+  "bonded": [
+   "Arma Marcial: Ao ganhar uma carga, há 8% de chance de você ganhar uma carga aleatória adicional",
+   "Varinha ou Cajado: Ao coletar uma Infusão Elemental, há 12% de chance de ganhar uma Infusão Elemental adicional do mesmo tipo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial7": {
+  "name": "Runa da Agonia de Fenumus",
+  "englishName": "Fenumus' Rune of Agony",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: Ganha 13% do dano como dano de caos adicional",
+   "Varinha ou Cajado: Ganha 13% do dano como dano de caos adicional"
+  ],
+  "bonded": [
+   "Arma Marcial: Ganha 8% do dano como dano físico adicional",
+   "Varinha ou Cajado: Ganha 8% do dano como dano físico adicional"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial8": {
+  "name": "Runa da Graça de Farrul",
+  "englishName": "Farrul's Rune of Grace",
+  "level": 50,
+  "effects": [
+   "Botas: Taxa de deflexão durante o movimento aumentada em 8%"
+  ],
+  "bonded": [
+   "Botas: Evita +3% do dano de ataques defletidos"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um par de botas para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial9": {
+  "name": "Runa da Perseguição de Farrul",
+  "englishName": "Farrul's Rune of the Chase",
+  "level": 50,
+  "effects": [
+   "Botas: Velocidade de movimento aumentada em 5%"
+  ],
+  "bonded": [
+   "Botas: Velocidade de recarga aumentada em 10%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um par de botas para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial10": {
+  "name": "Runa da Salvaguarda de Craiceann",
+  "englishName": "Craiceann's Rune of Warding",
+  "level": 50,
+  "effects": [
+   "Peitorais: Efeito de maldições em você reduzido em 50%"
+  ],
+  "bonded": [
+   "Peitorais: Intensidade de maldições aumentada em 8%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um peitoral para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial11": {
+  "name": "Runa da Memória de Saqawal",
+  "englishName": "Saqawal's Rune of Memory",
+  "level": 50,
+  "effects": [
+   "Elmos: Ganho de experiência aumentado em 2%"
+  ],
+  "bonded": [
+   "Elmos: +10% a todas as resistências elementais"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um elmo para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial12": {
+  "name": "Runa da Erosão de Saqawal",
+  "englishName": "Saqawal's Rune of Erosion",
+  "level": 50,
+  "effects": [
+   "Elmos: Efeito de Exposição aumentado em 25%"
+  ],
+  "bonded": [
+   "Elmos: Intensidade de afecções não danosas infligidas por você aumentada em 15%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um elmo para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial13": {
+  "name": "Runa da Caçada de Farrul",
+  "englishName": "Farrul's Rune of the Hunt",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: Dano de ataque contra inimigos raros ou únicos aumentado em 50%"
+  ],
+  "bonded": [
+   "Arma Marcial: +1 ao nível de todas as habilidades de ataque"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma marcial para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial14": {
+  "name": "Runa da Recuperação de Craiceann",
+  "englishName": "Craiceann's Rune of Recovery",
+  "level": 50,
+  "effects": [
+   "Peitorais: Velocidade de recarga do escudo de energia aumentada em 30%"
+  ],
+  "bonded": [
+   "Peitorais: Ganha Resistência-limite a afecções adicional equivalente a 50% do escudo de energia máximo, Ganhe resistência-limite a atordoamento adicional equivalente a 50% do escudo de energia máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um peitoral para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial15": {
+  "name": "Runa da Crueldade da Cortesã Mannan",
+  "englishName": "Courtesan Mannan's Rune of Cruelty",
+  "level": 50,
+  "effects": [
+   "Luvas: Intensidade de afecções danosas infligidas por você aumentada em 20%"
+  ],
+  "bonded": [
+   "Luvas: Duração de afecções danosas em inimigos aumentada em 15%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um par de luvas para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial16": {
+  "name": "Runa da Maestria do Nobre Grannell",
+  "englishName": "Thane Grannell's Rune of Mastery",
+  "level": 50,
+  "effects": [
+   "Luvas: Intensidade de afecções não danosas infligidas por você aumentada em 30%"
+  ],
+  "bonded": [
+   "Luvas: Duração de afecções elementais em inimigos aumentada em 15%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um par de luvas para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial17": {
+  "name": "Runa da Fiação de Fenumus",
+  "englishName": "Fenumus' Rune of Spinning",
+  "level": 50,
+  "effects": [
+   "Luvas: Velocidade de conjuração aumentada em 8%"
+  ],
+  "bonded": [
+   "Luvas: Eficiência de custo de mana aumentada em 20%, se em mana baixo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um par de luvas para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial18": {
+  "name": "Runa da Arqueria da Condessa Seske",
+  "englishName": "Countess Seske's Rune of Archery",
+  "level": 50,
+  "effects": [
+   "Arcos: Ataques com arco disparam 1 flechas adicionais"
+  ],
+  "bonded": [
+   "Arcos: Velocidade de projétil aumentada em 20%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um arco para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial19": {
+  "name": "Runa do Ermo do Nobre Girt",
+  "englishName": "Thane Girt's Rune of Wildness",
+  "level": 50,
+  "effects": [
+   "Varinha ou Cajado: 25% de chance de as habilidades de magia dispararem 2 projéteis adicionais"
+  ],
+  "bonded": [
+   "Varinha ou Cajado: Toda fúria também concede dano mágico aumentado em 1%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma varinha ou um cajado para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outro item de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial20": {
+  "name": "Runa da Drenagem de Fenumus",
+  "englishName": "Fenumus' Rune of Draining",
+  "level": 50,
+  "effects": [
+   "Luvas: Intensidade de Atrofia aumentada em 20%"
+  ],
+  "bonded": [
+   "Luvas: +7% à resistência a dano de caos"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um par de luvas para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial21": {
+  "name": "Runa do Verão do Nobre Myrk",
+  "englishName": "Thane Myrk's Rune of Summer",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: Adiciona de 23 a 34 de dano de fogo aos ataques contra inimigos incendiados"
+  ],
+  "bonded": [
+   "Arma Marcial: +2% à resistência a dano de fogo máxima"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma marcial para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial22": {
+  "name": "Runa do Inverno da Dama Hestra",
+  "englishName": "Lady Hestra's Rune of Winter",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: Adiciona de 19 a 28 de dano de frio contra inimigos esfriados"
+  ],
+  "bonded": [
+   "Arma Marcial: +2% à resistência a dano de frio máxima"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma marcial para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial23": {
+  "name": "Runa da Primavera do Nobre Leld",
+  "englishName": "Thane Leld's Rune of Spring",
+  "level": 50,
+  "effects": [
+   "Arma Marcial: Adiciona de 1 a 60 de dano elétrico contra inimigos eletrificados"
+  ],
+  "bonded": [
+   "Arma Marcial: +2% à resistência a dano elétrico máxima"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma marcial para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial24": {
+  "name": "Runa das Garras do Grande Lobo",
+  "englishName": "The Greatwolf's Rune of Claws",
+  "level": 50,
+  "effects": [
+   "Luvas: Adiciona de 5 a 12 de dano físico aos ataques"
+  ],
+  "bonded": [
+   "Luvas: Habilidades de fenda têm +2 de limite"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um par de luvas para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneSpecial25": {
+  "name": "Runa da Determinação do Grande Lobo",
+  "englishName": "The Greatwolf's Rune of Willpower",
+  "level": 50,
+  "effects": [
+   "Peitorais: 15% do dano é subtraído do mana antes da vida"
+  ],
+  "bonded": [
+   "Peitorais: 8% de vida máxima convertida em escudo de energia"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um peitoral para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneUpgrade": {
+  "name": "Runa Obra-prima",
+  "englishName": "Masterwork Rune",
+  "level": null,
+  "effects": [
+   "Todos os Equipamentos: Atualiza uma runa encaixada"
+  ],
+  "bonded": [],
+  "description": "Insira em um encaixe de aprimoramento que contenha qualquer runa de nível para atualizá-la."
+ },
+ "Metadata/Items/SoulCores/TalismanCat": {
+  "name": "Ídolo do Gato",
+  "englishName": "Cat Idol",
+  "level": null,
+  "effects": [
+   "Luvas: Precisão aumentada em 25%",
+   "Cetros: Aliados em sua presença têm uma chance de golpe crítico aumentada em 14%"
+  ],
+  "bonded": [
+   "Luvas: Cargas de patuá recebidas aumentadas em 30%",
+   "Cetros: Chance de golpe crítico aumentada em 25% durante a transformação"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um cetro ou um par de luvas para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outro item de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneWard1Lesser": {
+  "name": "Runa de Salvaguarda Menor",
+  "englishName": "Lesser Ward Rune",
+  "level": null,
+  "effects": [
+   "Armaduras: +15 à Salvaguarda Rúnica máxima"
+  ],
+  "bonded": [
+   "Armaduras: Armadura, evasão e escudo de energia globais aumentados em 15%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWard1Normal": {
+  "name": "Runa de Salvaguarda",
+  "englishName": "Ward Rune",
+  "level": 15,
+  "effects": [
+   "Armaduras: +20 à Salvaguarda Rúnica máxima"
+  ],
+  "bonded": [
+   "Armaduras: Armadura, evasão e escudo de energia globais aumentados em 15%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWard1Greater": {
+  "name": "Runa de Salvaguarda Maior",
+  "englishName": "Greater Ward Rune",
+  "level": 30,
+  "effects": [
+   "Armaduras: +25 à Salvaguarda Rúnica máxima"
+  ],
+  "bonded": [
+   "Armaduras: Armadura, evasão e escudo de energia globais aumentados em 15%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWard1Perfect": {
+  "name": "Runa de Salvaguarda Perfeita",
+  "englishName": "Perfect Ward Rune",
+  "level": 50,
+  "effects": [
+   "Armaduras: +30 à Salvaguarda Rúnica máxima"
+  ],
+  "bonded": [
+   "Armaduras: Armadura, evasão e escudo de energia globais aumentados em 15%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWard2Lesser": {
+  "name": "Runa de Carregamento Menor",
+  "englishName": "Lesser Charging Rune",
+  "level": null,
+  "effects": [
+   "Armaduras: Velocidade de regeneração de Salvaguarda Rúnica aumentada em 8%"
+  ],
+  "bonded": [
+   "Armaduras: Regenera 10 Salvaguarda Rúnica por segundo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWard2Normal": {
+  "name": "Runa de Carregamento",
+  "englishName": "Charging Rune",
+  "level": 15,
+  "effects": [
+   "Armaduras: Velocidade de regeneração de Salvaguarda Rúnica aumentada em 12%"
+  ],
+  "bonded": [
+   "Armaduras: Regenera 15 Salvaguarda Rúnica por segundo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWard2Greater": {
+  "name": "Runa de Carregamento Maior",
+  "englishName": "Greater Charging Rune",
+  "level": 30,
+  "effects": [
+   "Armaduras: Velocidade de regeneração de Salvaguarda Rúnica aumentada em 16%"
+  ],
+  "bonded": [
+   "Armaduras: Regenera 20 Salvaguarda Rúnica por segundo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWard2Perfect": {
+  "name": "Runa de Carregamento Perfeita",
+  "englishName": "Perfect Charging Rune",
+  "level": 50,
+  "effects": [
+   "Armaduras: Velocidade de regeneração de Salvaguarda Rúnica aumentada em 20%"
+  ],
+  "bonded": [
+   "Armaduras: Regenera 25 Salvaguarda Rúnica por segundo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial1": {
+  "name": "Runa de Salvaguarda do Reforço",
+  "englishName": "Warding Rune of Reinforcement",
+  "level": 15,
+  "effects": [
+   "Armaduras: Salvaguarda Rúnica aumentada em 20%"
+  ],
+  "bonded": [
+   "Armaduras: Ganha 2% de vida máxima como Salvaguarda Rúnica máxima adicional"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial2": {
+  "name": "Runa de Salvaguarda da Proteção",
+  "englishName": "Warding Rune of Protection",
+  "level": 15,
+  "effects": [
+   "Armaduras: A cada 4 segundos, ganha Guarda equivalente a 20% da Salvaguarda Rúnica máxima por 2 segundos"
+  ],
+  "bonded": [
+   "Armaduras: Ganho de Guarda aumentado em 8%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial3": {
+  "name": "Runa de Salvaguarda da Desintegração",
+  "englishName": "Warding Rune of Disintegration",
+  "level": 15,
+  "effects": [
+   "Arma Marcial: [Ataques|Attacks] que quebram a armadura equivalente a 15% da Salvaguarda Rúnica máxima"
+  ],
+  "bonded": [
+   "Arma Marcial: Quebra de armadura aumentada em 10%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial4": {
+  "name": "Runa de Salvaguarda do Desespero",
+  "englishName": "Warding Rune of Desperation",
+  "level": 15,
+  "effects": [
+   "Varinha ou Cajado: Dano mágico ignora 25% das resistências elementais do inimigo com a Salvaguarda Rúnica baixa"
+  ],
+  "bonded": [
+   "Varinha ou Cajado: Dano elemental aumentado em 12%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial8": {
+  "name": "Runa de Salvaguarda da Simbiose",
+  "englishName": "Warding Rune of Symbiosis",
+  "level": 30,
+  "effects": [
+   "Botas: Velocidade de recarga do escudo de energia aumentado em 1% por 30 de Salvaguarda Rúnica"
+  ],
+  "bonded": [
+   "Botas: Regenera 1% de escudo de energia máximo por segundo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial9": {
+  "name": "Runa de Salvaguarda da Coragem",
+  "englishName": "Warding Rune of Courage",
+  "level": 15,
+  "effects": [
+   "Elmos: Armadura e evasão aumentadas em 25% com a Salvaguarda Rúnica baixa"
+  ],
+  "bonded": [
+   "Elmos: Armadura e evasão aumentadas em 20% em vida baixa"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial10": {
+  "name": "Runa de Salvaguarda da Estabilidade",
+  "englishName": "Warding Rune of Stability",
+  "level": 30,
+  "effects": [
+   "Broquéis e Escudos: ㅤ+4 para a resistência-limite a atordoamento por 10 de Salvaguarda Rúnica máxima"
+  ],
+  "bonded": [
+   "Broquéis e Escudos: Acúmulo de atordoamento aumentado em 15% durante a transformação"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial13": {
+  "name": "Runa de Salvaguarda do Resvalamento",
+  "englishName": "Warding Rune of Glancing",
+  "level": 30,
+  "effects": [
+   "Peitorais: ㅤ+3 de taxa de deflexão por 10 de Salvaguarda Rúnica máxima"
+  ],
+  "bonded": [
+   "Peitorais: Evita +1% do dano de ataques defletidos"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial14": {
+  "name": "Runa de Salvaguarda do Coração",
+  "englishName": "Warding Rune of Heart",
+  "level": 30,
+  "effects": [
+   "Peitorais: Ganha 5% de vida máxima como Salvaguarda Rúnica máxima adicional"
+  ],
+  "bonded": [
+   "Peitorais: ㅤ+1% de velocidade de regeneração de Salvaguarda Rúnica por 2% de Salvaguarda Rúnica máxima perdida com ataques recentemente, até +100%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial15": {
+  "name": "Runa de Salvaguarda do Sustento",
+  "englishName": "Warding Rune of Nourishment",
+  "level": 15,
+  "effects": [
+   "Armaduras: 15% da vida recuperada de frascos também se aplica à Salvaguarda Rúnica"
+  ],
+  "bonded": [
+   "Armaduras: Vida recuperada de frascos aumentada em 15%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial16": {
+  "name": "Runa de Salvaguarda da Aniquilação",
+  "englishName": "Warding Rune of Annihilation",
+  "level": 30,
+  "effects": [
+   "Arma Marcial: Ataques gastam 5% da sua Salvaguarda Rúnica máxima, se possível, para ganhar a mesma quantidade de dano físico adicionado"
+  ],
+  "bonded": [
+   "Arma Marcial: Eficiência de custo de Salvaguarda Rúnica reduzida em 10%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial18": {
+  "name": "Runa de Salvaguarda da Armação",
+  "englishName": "Warding Rune of Armature",
+  "level": 45,
+  "effects": [
+   "Arma Marcial: Ganha Salvaguarda Rúnica máxima equivalente a 15% do dano máximo desta arma"
+  ],
+  "bonded": [
+   "Arma Marcial: Velocidade de ataque aumentada em 5% enquanto você não tiver Salvaguarda Rúnica"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial19": {
+  "name": "Runa de Salvaguarda da Obsessão",
+  "englishName": "Warding Rune of Obsession",
+  "level": 45,
+  "effects": [
+   "Varinhas: Todo dano sofrido ignora a Salvaguarda Rúnica, Velocidade de regeneração de Salvaguarda Rúnica é dobrada"
+  ],
+  "bonded": [
+   "Varinhas: Salvaguarda Rúnica máxima aumentada em 12%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial20": {
+  "name": "Runa de Salvaguarda do Equinócio",
+  "englishName": "Warding Rune of Equinox",
+  "level": 45,
+  "effects": [
+   "Arma de Conjurador: ㅤ-40% de velocidade de regeneração de mana, Mana recuperado com regeneração também se aplica à Salvaguarda Rúnica"
+  ],
+  "bonded": [
+   "Arma de Conjurador: Velocidade de regeneração de Salvaguarda Rúnica aumentada em 20%, se você causou um golpe crítico recentemente"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial21": {
+  "name": "Runa de Salvaguarda do Aproveitamento",
+  "englishName": "Warding Rune of Salvaging",
+  "level": 30,
+  "effects": [
+   "Cetros: Recupera 3% de Salvaguarda Rúnica máxima quando um dos seus lacaios reviventes é morto"
+  ],
+  "bonded": [
+   "Cetros: Recupera 3% de vida máxima quando um dos seus lacaios é revivido"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial23": {
+  "name": "Runa de Salvaguarda do Guarda-costas",
+  "englishName": "Warding Rune of Bodyguards",
+  "level": 45,
+  "effects": [
+   "Cetros: Lacaios em sua presença têm Agressividade se você estiver com a Salvaguarda Rúnica baixa"
+  ],
+  "bonded": [
+   "Cetros: Dano dos inimigos que atingem você é Azarado, se a sua Salvaguarda Rúnica sofreu dano recentemente"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneWardSpecial24": {
+  "name": "Runa de Salvaguarda do Esvaziamento",
+  "englishName": "Warding Rune of Hollowing",
+  "level": 45,
+  "effects": [
+   "Arma de Conjurador: Ganha 15% de vida máxima como Salvaguarda Rúnica máxima adicional, ㅤ-15% de vida máxima"
+  ],
+  "bonded": [
+   "Arma de Conjurador: +1% a todas as resistências elementais máximas com a Salvaguarda Rúnica cheia"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou armadura para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients1": {
+  "name": "Runa de Farpas Antiga",
+  "englishName": "Ancient Rune of Splinters",
+  "level": 30,
+  "effects": [
+   "Arcos: +50% de chance superior de disparar uma flecha adicional"
+  ],
+  "bonded": [
+   "Arcos: Velocidade de projétil aumentada em 30%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um arco para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients2": {
+  "name": "Runa do Duelo Antiga",
+  "englishName": "Ancient Rune of Dueling",
+  "level": 30,
+  "effects": [
+   "Thrown One Hand Axe: Intensidade da penalidade de aparo aumentada em 30%"
+  ],
+  "bonded": [
+   "Thrown One Hand Axe: Chance de bloqueio aumentada em 15%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um broquel para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients3": {
+  "name": "Runa do Titã Antiga",
+  "englishName": "Ancient Rune of the Titan",
+  "level": 30,
+  "effects": [
+   "Maças de Duas Mãos: 10% de chance de as habilidades de pancada usadas por você causarem um tremor secundário adicional"
+  ],
+  "bonded": [
+   "Maças de Duas Mãos: Área de efeito de ataques aumentada em 15%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma maça de duas mãos para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients4": {
+  "name": "Runa do Estilhaçamento Antiga",
+  "englishName": "Ancient Rune of Shattering",
+  "level": 30,
+  "effects": [
+   "Maças de Uma Mão: Efeito de armadura destruída aumentado em 40%"
+  ],
+  "bonded": [
+   "Maças de Uma Mão: Quebra de armadura aumentada em 50%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma maça de uma mão para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients5": {
+  "name": "Runa da Proeza Antiga",
+  "englishName": "Ancient Rune of Prowess",
+  "level": 30,
+  "effects": [
+   "Bestas: Ao ganhar uma carga, há 30% de chance de você ganhar uma carga adicional"
+  ],
+  "bonded": [
+   "Bestas: Duração das cargas de tolerância, frenesi e poder aumentada em 30%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma lança para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients6": {
+  "name": "Runa do Controle Antiga",
+  "englishName": "Ancient Rune of Control",
+  "level": 30,
+  "effects": [
+   "Moedas Acumuláveis e Encaixáveis da Escavação: Acúmulo de imobilização aumentado em 50%"
+  ],
+  "bonded": [
+   "Moedas Acumuláveis e Encaixáveis da Escavação: Dano contra inimigos imobilizados aumentado em 30%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um bastão para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients7": {
+  "name": "Runa da Descoberta Antiga",
+  "englishName": "Ancient Rune of Discovery",
+  "level": 30,
+  "effects": [
+   "Cajados: 30% de chance de gerar um vestígio adicional"
+  ],
+  "bonded": [
+   "Cajados: +1 à quantidade máxima de Infusões Elementais"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um cajado para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outro item de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients8": {
+  "name": "Runa da Decadência Antiga",
+  "englishName": "Ancient Rune of Decay",
+  "level": 30,
+  "effects": [
+   "Varinhas: Intensidade de Atrofia aumentada em 25%"
+  ],
+  "bonded": [
+   "Varinhas: 15% de chance de, quando a Volatilidade em você explodir, você recuperar uma quantidade equivalente de Volatilidade"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma varinha para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outro item de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients9": {
+  "name": "Runa da Bruxaria Antiga",
+  "englishName": "Ancient Rune of Witchcraft",
+  "level": 30,
+  "effects": [
+   "Itens Locais da Instância: Área de efeito de maldições aumentada em 40%"
+  ],
+  "bonded": [
+   "Itens Locais da Instância: Maldições ativam 15% mais rápido"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um foco para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outro item de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients10": {
+  "name": "Runa da Horda Antiga",
+  "englishName": "Ancient Rune of the Horde",
+  "level": 30,
+  "effects": [
+   "Cetros: Velocidade de ataque e de conjuração dos lacaios aumentada em 8%"
+  ],
+  "bonded": [
+   "Cetros: Velocidade de movimento dos lacaios aumentada em 10%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um cetro para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outro item de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients11": {
+  "name": "Runa da Animosidade Antiga",
+  "englishName": "Ancient Rune of Animosity",
+  "level": 30,
+  "effects": [
+   "Gemas de Habilidade Brutas: Ganha 2 de Proeza Druídica ao atordoar totalmente um inimigo raro ou único"
+  ],
+  "bonded": [
+   "Gemas de Habilidade Brutas: Acúmulo de atordoamento aumentado em 40%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um talismã para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outro item de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients12": {
+  "name": "Runa da Detonação Antiga",
+  "englishName": "Ancient Rune of Detonation",
+  "level": 30,
+  "effects": [
+   "Focos: Granadas têm 10% de chance de serem ativadas novamente"
+  ],
+  "bonded": [
+   "Focos: Velocidade de recarregamento de besta aumentada em 40%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma besta para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outro item de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients13": {
+  "name": "Runa da Retaliação Antiga",
+  "englishName": "Ancient Rune of Retaliation",
+  "level": 30,
+  "effects": [
+   "Escudos: Velocidade de ataque aumentada em 8%, se você bloqueou recentemente"
+  ],
+  "bonded": [
+   "Escudos: +3% de chance de bloqueio máxima"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um escudo para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients14": {
+  "name": "Runa da Vitalidade",
+  "englishName": "Rune of Vitality",
+  "level": 15,
+  "effects": [
+   "Arma: +80 de vida máxima",
+   "Broquéis e Escudos: Recupera 15 de vida ao bloquear"
+  ],
+  "bonded": [
+   "Arma: Quantidade de vida roubada aumentada em 15%",
+   "Broquéis e Escudos: Vida máxima aumentada em 5%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma, broquel ou escudo para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients15": {
+  "name": "Runa da Caçada",
+  "englishName": "Rune of the Hunt",
+  "level": 15,
+  "effects": [
+   "Botas: Velocidade de movimento aumentada em 8% ao correr",
+   "Cetros: Companheiros causam dano aumentado em 30%"
+  ],
+  "bonded": [
+   "Botas: Recuperação contra atordoamento aumentada em 50%",
+   "Cetros: Recuperação de mana aumentada em 8% enquanto seu companheiro estiver em sua presença"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um cetro ou par de botas para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients16": {
+  "name": "Runa das Acrobacias",
+  "englishName": "Rune of Acrobatics",
+  "level": 15,
+  "effects": [
+   "Arma: Frascos ganham 0.2 cargas por segundo",
+   "Botas: +0.3 metros de alcance da cambalhota evasiva"
+  ],
+  "bonded": [
+   "Arma: Patuás ganham 0.25 cargas por segundo",
+   "Botas: Armadura aumentada em 30%, se você não usou cambalhota evasiva recentemente"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma ou par de botas para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients17": {
+  "name": "Runa da Culminação",
+  "englishName": "Rune of Culmination",
+  "level": 15,
+  "effects": [
+   "Luvas: 50% de chance de acumular um combo adicional ao atingir",
+   "Maça de Uma Mão ou Bastão: Define apenas o valor mínimo ou máximo de dano para o dano físico"
+  ],
+  "bonded": [
+   "Luvas: Velocidade de ataque aumentada em 5%",
+   "Maça de Uma Mão ou Bastão: Duração do sangramento aumentada em 20%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um bastão, maça de uma mão ou par de luvas para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients18": {
+  "name": "Runa do Renome",
+  "englishName": "Rune of Renown",
+  "level": 15,
+  "effects": [
+   "Luvas: Geração de glória aumentada em 50%",
+   "Arma de Conjurador: Período de recuperação de arconte expira 30% mais rápido"
+  ],
+  "bonded": [
+   "Luvas: Habilidades de estandarte têm a intensidade de aura aumentada em 20%",
+   "Arma de Conjurador: Duração do bônus de arconte aumentada em 30%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma de conjurador ou par de luvas para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients19": {
+  "name": "Runa da Acumulação",
+  "englishName": "Rune of Accumulation",
+  "level": 15,
+  "effects": [
+   "Luvas: Ganha 3 de vida por inimigo atingido com ataques, Ganha 1 de mana por inimigo atingido com ataques",
+   "Arco, Besta ou Lança: Ao atingir um inimigo, ganha dano de frio adicionado máximo equivalente ao poder do inimigo por 20 segundos, até um total de 32"
+  ],
+  "bonded": [
+   "Luvas: +30 de vida máxima, +30 de mana máximo",
+   "Arco, Besta ou Lança: Acúmulo de congelamento aumentado em 30%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma arma a distância ou par de luvas para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients20": {
+  "name": "Runa das Fundações",
+  "englishName": "Rune of Foundations",
+  "level": 15,
+  "effects": [
+   "Peitorais: +30 de armadura, +30 de evasão, +10 de escudo de energia máximo"
+  ],
+  "bonded": [
+   "Peitorais: +20 de vida máxima, +20 de mana máximo"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um peitoral para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients21": {
+  "name": "Runa do Prisma",
+  "englishName": "Rune of the Prism",
+  "level": 15,
+  "effects": [
+   "Peitorais: -10% a todas as resistências elementais máximas, +20% a todas as resistências elementais"
+  ],
+  "bonded": [
+   "Peitorais: 20% do dano é subtraído do mana antes da vida"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um peitoral para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients22": {
+  "name": "Runa do Desabrochar",
+  "englishName": "Rune of the Blossom",
+  "level": 15,
+  "effects": [
+   "Peitorais: +50 de espírito, -1 ao espírito por 2 níveis"
+  ],
+  "bonded": [
+   "Peitorais: +5% de eficiência na reserva de espírito das habilidades"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um peitoral para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients23": {
+  "name": "Runa da Consistência",
+  "englishName": "Rune of Consistency",
+  "level": 15,
+  "effects": [
+   "Elmos: Chance de golpe crítico aumentada em 200%, Você não tem bônus de dano crítico",
+   "Arma de Conjurador: Dano mágico aumentado em 50% enquanto seu companheiro estiver em sua presença"
+  ],
+  "bonded": [
+   "Elmos: Ataques contra você têm o bônus de dano crítico reduzido em 25%",
+   "Arma de Conjurador: Recuperação de mana aumentada em 8% enquanto seu companheiro estiver em sua presença"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um elmo, cajado ou varinha para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients24": {
+  "name": "Runa do Alcance",
+  "englishName": "Rune of Reach",
+  "level": 15,
+  "effects": [
+   "Elmos: Vestígios criados por você têm o efeito aumentado em 15%",
+   "Varinha ou Cajado: Vestígios podem ser coletados de uma distância 50% maior, Vestígios criados por você têm o efeito reduzido em 25%"
+  ],
+  "bonded": [
+   "Elmos: Recupera 3% de mana máximo ao coletar um vestígio",
+   "Varinha ou Cajado: Efeito de Exposição aumentado em 20%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um elmo, cajado ou varinha para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients25": {
+  "name": "Runa da Chama Vital",
+  "englishName": "Rune of Vital Flame",
+  "level": 15,
+  "effects": [
+   "Maça de Uma Mão, Maça de Duas Mãos ou Talismã: Adiciona de 13 a 16 de dano de fogo, 15% dos custos de mana da habilidade convertidos em custos de vida"
+  ],
+  "bonded": [
+   "Maça de Uma Mão, Maça de Duas Mãos ou Talismã: Intensidade de incêndio aumentada em 30%"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de uma maça ou talismã para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outro item de aprimoramento."
+ },
+ "Metadata/Items/SoulCores/RuneOfTheAncients26": {
+  "name": "Runa do Confrontamento",
+  "englishName": "Rune of Confrontation",
+  "level": 15,
+  "effects": [
+   "Bastão ou Lança: Ganha 4 de fúria ao atingir corpo a corpo, -10 à fúria máxima"
+  ],
+  "bonded": [
+   "Bastão ou Lança: rage effect +% [10]"
+  ],
+  "description": "Insira em um encaixe de aprimoramento vazio de um bastão ou lança para aplicar seu efeito ao item. Depois de encaixado, não pode ser removido, mas pode ser substituído por outros itens de aprimoramento."
+ }
+}

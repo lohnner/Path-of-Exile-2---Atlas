@@ -1,0 +1,19 @@
+{
+  "sourceVersion": "0.5.5.5",
+  "sourceUpdated": "Wed, 28 Oct 2026 06:56:53 GMT",
+  "syncedAt": "2026-10-28T13:09:35.912Z",
+  "repoUrl": "https://repoe-fork.github.io/poe2/",
+  "wikiUrl": "https://www.poe2wiki.net/",
+  "counts": {
+    "baseItems": 5496,
+    "modifiers": 16784,
+    "uniques": 449,
+    "gems": 1191,
+    "wikiUniqueStats": 478,
+    "portugueseItems": 4037,
+    "portugueseModifiers": 1420
+  },
+  "warnings": [
+    "Algumas páginas da fonte em português não responderam; usei os dados locais disponíveis."
+  ]
+}

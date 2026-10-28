@@ -1,0 +1,952 @@
+{
+ "Metadata/Items/Currency/CurrencyLesserEssenceMana": {
+  "name": "Essência de Mente Inferior",
+  "englishName": "Lesser Essence of the Mind",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Cinto, Botas, Luvas, Elmo ou Pedrarias: +(25—34) de mana máximo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceDefences": {
+  "name": "Essência de Melhoramento Inferior",
+  "englishName": "Lesser Essence of Enhancement",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura: Armadura, evasão e escudo de energia aumentados em (27—42)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceLife": {
+  "name": "Essência de Corpo Inferior",
+  "englishName": "Lesser Essence of the Body",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura ou Cinto: +(30—39) de vida máxima",
+   "Pedrarias: +(20—29) de vida máxima"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssencePhysical": {
+  "name": "Essência de Escoriação Inferior",
+  "englishName": "Lesser Essence of Abrasion",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Adiciona de (4—6) a (7—11) de dano físico",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Adiciona de (5—8) a (10—15) de dano físico"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceFire": {
+  "name": "Essência de Chamas Inferior",
+  "englishName": "Lesser Essence of Flames",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Adiciona de (4—6) a (7—10) de dano de fogo",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Adiciona de (6—9) a (10—16) de dano de fogo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceLightning": {
+  "name": "Essência de Eletricidade Inferior",
+  "englishName": "Lesser Essence of Electricity",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Adiciona de 1 a (13—19) de dano elétrico",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Adiciona de (1—2) a (19—27) de dano elétrico"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceCold": {
+  "name": "Essência de Gelo Inferior",
+  "englishName": "Lesser Essence of Ice",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Adiciona de (3—5) a (6—9) de dano de frio",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Adiciona de (5—8) a (9—14) de dano de frio"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceChaos": {
+  "name": "Essência de Ruína Inferior",
+  "englishName": "Lesser Essence of Ruin",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura, Cinto ou Pedrarias: +(4—7)% à resistência a dano de caos"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceAttack": {
+  "name": "Essência de Batalha Inferior",
+  "englishName": "Lesser Essence of Battle",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Marcial: +(61—84) de precisão"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceCaster": {
+  "name": "Essência de Feitiçaria Inferior",
+  "englishName": "Lesser Essence of Sorcery",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Foco ou Varinha: Dano mágico aumentado em (35—44)%",
+   "Cajado: Dano mágico aumentado em (69—88)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceSpeed": {
+  "name": "Essência de Aceleração Inferior",
+  "englishName": "Lesser Essence of Haste",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo: Velocidade de ataque aumentada em (11—13)%",
+   "Arco ou Besta: Velocidade de ataque aumentada em (8—10)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceAttribute": {
+  "name": "Essência de Infinitude Inferior",
+  "englishName": "Lesser Essence of the Infinite",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Equipamento: +(9—12) à Força, Destreza ou Inteligência"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceLife": {
+  "name": "Essência de Corpo",
+  "englishName": "Essence of the Body",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Cinto, Peitoral, Elmo ou Escudo: +(85—99) de vida máxima",
+   "Amuleto, Botas, Luvas ou Anel: +(70—84) de vida máxima"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceMana": {
+  "name": "Essência de Mente",
+  "englishName": "Essence of the Mind",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Cinto, Botas, Luvas ou Elmo: +(65—79) de mana máximo",
+   "Pedrarias: +(80—89) de mana máximo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceDefences": {
+  "name": "Essência de Melhoramento",
+  "englishName": "Essence of Enhancement",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura: Armadura, evasão e escudo de energia aumentados em (56—67)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssencePhysical": {
+  "name": "Essência de Escoriação",
+  "englishName": "Essence of Abrasion",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Adiciona de (10—15) a (18—26) de dano físico",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Adiciona de (14—21) a (25—37) de dano físico"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceFire": {
+  "name": "Essência de Chamas",
+  "englishName": "Essence of Flames",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Adiciona de (20—24) a (32—37) de dano de fogo",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Adiciona de (30—37) a (45—56) de dano de fogo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceCold": {
+  "name": "Essência de Gelo",
+  "englishName": "Essence of Ice",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Adiciona de (17—20) a (26—32) de dano de frio",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Adiciona de (25—30) a (38—46) de dano de frio"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceChaos": {
+  "name": "Essência de Ruína",
+  "englishName": "Essence of Ruin",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura, Cinto ou Pedrarias: +(8—11)% à resistência a dano de caos"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceLightning": {
+  "name": "Essência de Eletricidade",
+  "englishName": "Essence of Electricity",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Adiciona de (1—3) a (55—60) de dano elétrico",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Adiciona de (1—4) a (80—88) de dano elétrico"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceAttack": {
+  "name": "Essência de Batalha",
+  "englishName": "Essence of Battle",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Marcial: +(124—167) de precisão"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceCaster": {
+  "name": "Essência de Feitiçaria",
+  "englishName": "Essence of Sorcery",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Foco ou Varinha: Dano mágico aumentado em (55—64)%",
+   "Cajado: Dano mágico aumentado em (109—128)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceSpeed": {
+  "name": "Essência de Aceleração",
+  "englishName": "Essence of Haste",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo: Velocidade de ataque aumentada em (17—19)%",
+   "Arco ou Besta: Velocidade de ataque aumentada em (11—13)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceAttribute": {
+  "name": "Essência de Infinitude",
+  "englishName": "Essence of the Infinite",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Equipamento: +(17—20) à Força, Destreza ou Inteligência"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceLife": {
+  "name": "Essência de Corpo Superior",
+  "englishName": "Greater Essence of the Body",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Cinto, Peitoral, Elmo ou Escudo: +(100—119) de vida máxima",
+   "Amuleto, Botas ou Luvas: +(85—99) de vida máxima"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceMana": {
+  "name": "Essência de Mente Superior",
+  "englishName": "Greater Essence of the Mind",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Cinto, Botas, Luvas ou Elmo: +(80—89) de mana máximo",
+   "Pedrarias: +(90—104) de mana máximo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceDefences": {
+  "name": "Essência de Melhoramento Superior",
+  "englishName": "Greater Essence of Enhancement",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura: Armadura, evasão e escudo de energia aumentados em (68—79)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssencePhysical": {
+  "name": "Essência de Escoriação Superior",
+  "englishName": "Greater Essence of Abrasion",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Adiciona de (16—24) a (28—42) de dano físico",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Adiciona de (23—35) a (39—59) de dano físico"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceFire": {
+  "name": "Essência de Chamas Superior",
+  "englishName": "Greater Essence of Flames",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Adiciona de (35—44) a (56—71) de dano de fogo",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Adiciona de (56—70) a (84—107) de dano de fogo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceCold": {
+  "name": "Essência de Gelo Superior",
+  "englishName": "Greater Essence of Ice",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Adiciona de (31—38) a (47—59) de dano de frio",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Adiciona de (46—57) a (70—88) de dano de frio"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceLightning": {
+  "name": "Essência de Eletricidade Superior",
+  "englishName": "Greater Essence of Electricity",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Adiciona de (1—6) a (85—107) de dano elétrico",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Adiciona de (1—8) a (128—162) de dano elétrico"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceChaos": {
+  "name": "Essência de Ruína Superior",
+  "englishName": "Greater Essence of Ruin",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura, Cinto ou Pedrarias: +(16—19)% à resistência a dano de caos"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceAttack": {
+  "name": "Essência de Batalha Superior",
+  "englishName": "Greater Essence of Battle",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Marcial, Luvas ou Aljava: +(237—346) de precisão"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceCaster": {
+  "name": "Essência de Feitiçaria Superior",
+  "englishName": "Greater Essence of Sorcery",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Foco ou Varinha: Dano mágico aumentado em (75—89)%",
+   "Cajado: Dano mágico aumentado em (149—188)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceSpeed": {
+  "name": "Essência de Aceleração Superior",
+  "englishName": "Greater Essence of Haste",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Corpo a Corpo: Velocidade de ataque aumentada em (23—25)%",
+   "Arco ou Besta: Velocidade de ataque aumentada em (14—16)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceAttribute": {
+  "name": "Essência de Infinitude Superior",
+  "englishName": "Greater Essence of the Infinite",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Equipamento: +(25—27) à Força, Destreza ou Inteligência"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceLife": {
+  "name": "Essência de Corpo Perfeita",
+  "englishName": "Perfect Essence of the Body",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Peitoral: Vida máxima aumentada em (8—10)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceMana": {
+  "name": "Essência de Mente Perfeita",
+  "englishName": "Perfect Essence of the Mind",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Anel: Mana máximo aumentado em (4—6)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceDefences": {
+  "name": "Essência de Melhoramento Perfeita",
+  "englishName": "Perfect Essence of Enhancement",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Amuleto: Armadura, evasão e escudo de energia globais aumentados em (20—30)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssencePhysical": {
+  "name": "Essência de Escoriação Perfeita",
+  "englishName": "Perfect Essence of Abrasion",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Ganha (15—20)% do dano como dano físico adicional",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Ganha (25—33)% do dano como dano físico adicional"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceFire": {
+  "name": "Essência de Chamas Perfeita",
+  "englishName": "Perfect Essence of Flames",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Ganha (15—20)% do dano como dano de fogo adicional",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Ganha (25—33)% do dano como dano de fogo adicional"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceCold": {
+  "name": "Essência de Gelo Perfeita",
+  "englishName": "Perfect Essence of Ice",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Ganha (15—20)% do dano como dano de frio adicional",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Ganha (25—33)% do dano como dano de frio adicional"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceLightning": {
+  "name": "Essência de Eletricidade Perfeita",
+  "englishName": "Perfect Essence of Electricity",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: Ganha (15—20)% do dano como dano elétrico adicional",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: Ganha (25—33)% do dano como dano elétrico adicional"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceChaos": {
+  "name": "Essência de Ruína Perfeita",
+  "englishName": "Perfect Essence of Ruin",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Peitoral: (10—15)% do dano físico dos ataques é sofrido como dano de caos"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceAttack": {
+  "name": "Essência de Batalha Perfeita",
+  "englishName": "Perfect Essence of Battle",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Arma Corpo a Corpo de Uma Mão ou Arco: +2 ao nível de todas as habilidades de ataque",
+   "Arma Corpo a Corpo de Duas Mãos ou Besta: +3 ao nível de todas as habilidades de ataque"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceCaster": {
+  "name": "Essência de Feitiçaria Perfeita",
+  "englishName": "Perfect Essence of Sorcery",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Varinha: +3 ao nível de todas as habilidades de magia",
+   "Cajado: +5 ao nível de todas as habilidades de magia"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceSpeed": {
+  "name": "Essência de Aceleração Perfeita",
+  "englishName": "Perfect Essence of Haste",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Arma Marcial: (20—25)% de chance de ganhar Agressividade ao matar com ataques desta arma"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceAttribute": {
+  "name": "Essência de Infinitude Perfeita",
+  "englishName": "Perfect Essence of the Infinite",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Amuleto: Força, Destreza ou Inteligência aumentada em (7—10)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceCritical": {
+  "name": "Essência de Busca Inferior",
+  "englishName": "Lesser Essence of Seeking",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Marcial: +(1.51—2.1)% à chance de golpe crítico",
+   "Foco ou Varinha: Chance de golpe crítico de magias aumentada em (34—39)%",
+   "Cajado: Chance de golpe crítico de magias aumentada em (50—59)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceCritical": {
+  "name": "Essência de Busca",
+  "englishName": "Essence of Seeking",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Marcial: +(2.11—2.7)% à chance de golpe crítico",
+   "Foco ou Varinha: Chance de golpe crítico de magias aumentada em (40—46)%",
+   "Cajado: Chance de golpe crítico de magias aumentada em (60—69)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceCritical": {
+  "name": "Essência de Busca Superior",
+  "englishName": "Greater Essence of Seeking",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Arma Marcial: +(3.11—3.8)% à chance de golpe crítico",
+   "Foco ou Varinha: Chance de golpe crítico de magias aumentada em (47—53)%",
+   "Cajado: Chance de golpe crítico de magias aumentada em (70—79)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceCritical": {
+  "name": "Essência de Busca Perfeita",
+  "englishName": "Perfect Essence of Seeking",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Peitoral: Ataques contra você têm o bônus de dano crítico reduzido em (40—50)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyCorruptedEssenceHysteria": {
+  "name": "Essência de Histeria",
+  "englishName": "Essence of Hysteria",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Elmo: +1 ao nível de todas as habilidades de lacaio",
+   "Peitoral: (64—97) a (98—145) de dano de espinhos físico",
+   "Luvas: Bônus de dano crítico aumentado em (25—29)%",
+   "Botas: Velocidade de movimento aumentada em 30%",
+   "Anel: Velocidade de regeneração de mana aumentada em (50—59)%",
+   "Amuleto: (19—21)% do dano sofrido é recuperado como vida",
+   "Cinto: +(254—304) à resistência-limite a atordoamento",
+   "Escudo: Chance de bloqueio aumentada em (20—24)%",
+   "Aljava: Dano com habilidades de arco aumentado em (43—50)%",
+   "Foco: Velocidade de recarga do escudo de energia aumentada em (20—23)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyCorruptedEssenceDelirium": {
+  "name": "Essência de Delírio",
+  "englishName": "Essence of Delirium",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Peitoral: Atribui uma habilidade passiva notável aleatória"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyCorruptedEssenceHorror": {
+  "name": "Essência de Horror",
+  "englishName": "Essence of Horror",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Luvas ou Botas: Efeito de itens encaixados aumentado em 60%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyCorruptedEssenceInsanity": {
+  "name": "Essência de Insanidade",
+  "englishName": "Essence of Insanity",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Cinto: Ao ser corrompido, o item ganha dois encantamentos"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyCorruptedEssenceAbyss": {
+  "name": "Essência de Abismo",
+  "englishName": "Essence of the Abyss",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Equipamento: Marca do Lorde Abissal"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyCorruptedEssenceBreach": {
+  "name": "Essência da Fenda",
+  "englishName": "Essence of the Breach",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Pedrarias: +20% à qualidade máxima"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceFireResist": {
+  "name": "Essência de Isolamento Inferior",
+  "englishName": "Lesser Essence of Insulation",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura, Cinto ou Pedrarias: +(11—15)% à resistência a dano de fogo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceFireResist": {
+  "name": "Essência de Isolamento",
+  "englishName": "Essence of Insulation",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura, Cinto ou Pedrarias: +(21—25)% à resistência a dano de fogo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceFireResist": {
+  "name": "Essência de Isolamento Superior",
+  "englishName": "Greater Essence of Insulation",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura, Cinto ou Pedrarias: +(31—35)% à resistência a dano de fogo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceFireResist": {
+  "name": "Essência de Isolamento Perfeita",
+  "englishName": "Perfect Essence of Insulation",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Cinto: (26—30)% do dano de fogo sofrido é recuperado como vida"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceColdResist": {
+  "name": "Essência de Descongelamento Inferior",
+  "englishName": "Lesser Essence of Thawing",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura, Cinto ou Pedrarias: +(11—15)% à resistência a dano de frio"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceColdResist": {
+  "name": "Essência de Descongelamento",
+  "englishName": "Essence of Thawing",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura, Cinto ou Pedrarias: +(21—25)% à resistência a dano de frio"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceColdResist": {
+  "name": "Essência de Descongelamento Superior",
+  "englishName": "Greater Essence of Thawing",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura, Cinto ou Pedrarias: +(31—35)% à resistência a dano de frio"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceColdResist": {
+  "name": "Essência de Descongelamento Perfeita",
+  "englishName": "Perfect Essence of Thawing",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Elmo: (26—30)% do dano de frio sofrido é recuperado como vida"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceLightningResist": {
+  "name": "Essência de Aterramento Inferior",
+  "englishName": "Lesser Essence of Grounding",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura, Cinto ou Pedrarias: +(11—15)% à resistência a dano elétrico"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceLightningResist": {
+  "name": "Essência de Aterramento",
+  "englishName": "Essence of Grounding",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura, Cinto ou Pedrarias: +(21—25)% à resistência a dano elétrico"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceLightningResist": {
+  "name": "Essência de Aterramento Superior",
+  "englishName": "Greater Essence of Grounding",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Armadura, Cinto ou Pedrarias: +(31—35)% à resistência a dano elétrico"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceLightningResist": {
+  "name": "Essência de Aterramento Perfeita",
+  "englishName": "Perfect Essence of Grounding",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Luvas: (26—30)% do dano elétrico sofrido é recuperado como vida"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceSpeedCaster": {
+  "name": "Essência de Diligência Inferior",
+  "englishName": "Lesser Essence of Alacrity",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Foco ou Varinha: Velocidade de conjuração aumentada em (13—16)%",
+   "Cajado: Velocidade de conjuração aumentada em (20—25)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceSpeedCaster": {
+  "name": "Essência de Diligência",
+  "englishName": "Essence of Alacrity",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Foco ou Varinha: Velocidade de conjuração aumentada em (17—20)%",
+   "Cajado: Velocidade de conjuração aumentada em (26—31)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceSpeedCaster": {
+  "name": "Essência de Diligência Superior",
+  "englishName": "Greater Essence of Alacrity",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Foco ou Varinha: Velocidade de conjuração aumentada em (25—28)%",
+   "Cajado: Velocidade de conjuração aumentada em (38—43)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceSpeedCaster": {
+  "name": "Essência de Diligência Perfeita",
+  "englishName": "Perfect Essence of Alacrity",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Foco ou Varinha: Eficiência de custo de mana aumentada em (18—20)%",
+   "Cajado: Eficiência de custo de mana aumentada em (28—32)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceRarity": {
+  "name": "Essência de Opulência Inferior",
+  "englishName": "Lesser Essence of Opulence",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Botas, Luvas, Elmo ou Pedrarias: Raridade de itens encontrados aumentada em (6—10)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceRarity": {
+  "name": "Essência de Opulência",
+  "englishName": "Essence of Opulence",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Botas, Luvas, Elmo ou Pedrarias: Raridade de itens encontrados aumentada em (11—14)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceRarity": {
+  "name": "Essência de Opulência Perfeita",
+  "englishName": "Perfect Essence of Opulence",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Luvas: Quantidade de ouro largado por inimigos mortos aumentada em (10—15)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceRarity": {
+  "name": "Essência de Opulência Superior",
+  "englishName": "Greater Essence of Opulence",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Botas, Luvas, Elmo ou Pedrarias: Raridade de itens encontrados aumentada em (15—18)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyLesserEssenceAlly": {
+  "name": "Essência de Ordem Inferior",
+  "englishName": "Lesser Essence of Command",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Cetro: Aliados em sua presença causam dano aumentado em (35—44)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyEssenceAlly": {
+  "name": "Essência de Ordem",
+  "englishName": "Essence of Command",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Cetro: Aliados em sua presença causam dano aumentado em (55—64)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyGreaterEssenceAlly": {
+  "name": "Essência de Ordem Superior",
+  "englishName": "Greater Essence of Command",
+  "level": null,
+  "effects": [
+   "Atualiza um item mágico para um item raro, adicionando um modificador garantido",
+   "Cetro: Aliados em sua presença causam dano aumentado em (75—89)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item mágico para aplicar.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/CurrencyPerfectEssenceAlly": {
+  "name": "Essência de Ordem Perfeita",
+  "englishName": "Perfect Essence of Command",
+  "level": null,
+  "effects": [
+   "Remove um modificador aleatório e aprimora um item raro com um novo modificador garantido",
+   "Cetro: Habilidades de aura têm a intensidade aumentada em (15—20)%"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item, depois com o esquerdo em um item raro para aplicar.\nShift + clique para desempilhar."
+ }
+}

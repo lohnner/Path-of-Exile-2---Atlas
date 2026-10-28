@@ -1,0 +1,450 @@
+{
+ "Metadata/Items/Currency/OmenOnLowLifeRecoverCharges": {
+  "name": "Presságio do Revigoramento",
+  "englishName": "Omen of Refreshment",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, as cargas de seus frascos e patuás serão recuperadas completamente em vida baixa"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado. Apenas um Presságio pode ser acionado no combate em cada instância.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnChaosLowestLevelMod": {
+  "name": "Presságio do Desgaste",
+  "englishName": "Omen of Whittling",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe do Caos removerá o modificador de nível mais baixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnLowLifeFullyHeal": {
+  "name": "Presságio do Ressurgimento",
+  "englishName": "Omen of Resurgence",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, sua vida, mana e escudo de energia serão recuperados completamente em vida baixa"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado. Apenas um Presságio pode ser acionado no combate em cada instância.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnDeathPreventExpLoss": {
+  "name": "Presságio da Melhora",
+  "englishName": "Omen of Amelioration",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, ele impedirá a perda de 75% de experiência quando você morrer"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado. Apenas um Presságio pode ser acionado no combate em cada instância.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnChaosPrefix": {
+  "name": "Presságio da Eliminação Canhota",
+  "englishName": "Omen of Sinistral Erasure",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe do Caos removerá somente os modificadores de prefixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnChaosSuffix": {
+  "name": "Presságio da Eliminação Destra",
+  "englishName": "Omen of Dextral Erasure",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe do Caos removerá somente os modificadores de sufixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnAlchemyMaximumPrefixes": {
+  "name": "Presságio da Alquimia Canhota",
+  "englishName": "Omen of Sinistral Alchemy",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe da Alquimia resultará no número máximo de modificadores de prefixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnAlchemyMaximumSuffixes": {
+  "name": "Presságio da Alquimia Destra",
+  "englishName": "Omen of Dextral Alchemy",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe da Alquimia resultará no número máximo de modificadores de sufixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnRegalPrefix": {
+  "name": "Presságio da Coroação Canhota",
+  "englishName": "Omen of Sinistral Coronation",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe Real apenas adicionará modificadores de prefixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnRegalSuffix": {
+  "name": "Presságio da Coroação Destra",
+  "englishName": "Omen of Dextral Coronation",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe Real apenas adicionará modificadores de sufixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnVaalRemoveDoNothingOutcome": {
+  "name": "Presságio da Corrupção",
+  "englishName": "Omen of Corruption",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe Vaal sempre causará uma mudança"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnExaltAddTwoMods": {
+  "name": "Presságio da Exaltação Maior",
+  "englishName": "Omen of Greater Exaltation",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe Exaltado adicionará dois modificadores aleatórios"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnExaltAddSuffixes": {
+  "name": "Presságio da Exaltação Destra",
+  "englishName": "Omen of Dextral Exaltation",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe Exaltado adicionará somente modificadores de sufixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnExaltAddPrefixes": {
+  "name": "Presságio da Exaltação Canhota",
+  "englishName": "Omen of Sinistral Exaltation",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe Exaltado adicionará somente modificadores de prefixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnAnnulRemoveTwoMods": {
+  "name": "Presságio da Anulação Maior",
+  "englishName": "Omen of Greater Annulment",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe da Anulação removerá dois modificadores"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnAnnulRemovePrefixes": {
+  "name": "Presságio da Anulação Canhota",
+  "englishName": "Omen of Sinistral Annulment",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe da Anulação removerá apenas modificadores de prefixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenShrineAdditionalEffect": {
+  "name": "Presságio das Orações Atendidas",
+  "englishName": "Omen of Answered Prayers",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, o próximo altar que você clicar concederá um efeito adicional"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado. Apenas um Presságio pode ser acionado no combate em cada instância.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnAnnulRemoveSuffixes": {
+  "name": "Presságio da Anulação Destra",
+  "englishName": "Omen of Dextral Annulment",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe da Anulação removerá apenas modificadores de sufixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenStrongboxOpenableAgain": {
+  "name": "Presságio dos Compartimentos Secretos",
+  "englishName": "Omen of Secret Compartments",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, a próxima caixa-forte que você clicar poderá ser aberta novamente"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado. Apenas um Presságio pode ser acionado no combate em cada instância.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenTormentedMonsterReleased": {
+  "name": "Presságio da Caçada",
+  "englishName": "Omen of the Hunt",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, o próximo monstro possuído que você matar libertará e manifestará todos os Espíritos Azmeri"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado. Apenas um Presságio pode ser acionado no combate em cada instância.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenRogueExileSummonsPartyMember": {
+  "name": "Presságio dos Reforços",
+  "englishName": "Omen of Reinforcements",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, o próximo Exilado Renegado que você encontrar invocará um aliado"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado. Apenas um Presságio pode ser acionado no combate em cada instância.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnExaltAddExistingModType": {
+  "name": "Presságio da Exaltação Uniforme",
+  "englishName": "Omen of Homogenising Exaltation",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe Exaltado adicionará um modificador do mesmo tipo de um que já exista no item"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnRegalAddExistingModType": {
+  "name": "Presságio da Coroação Uniforme",
+  "englishName": "Omen of Homogenising Coronation",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe Real adicionará um modificador do mesmo tipo de um que já exista no item"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenGambleNoGoldCost": {
+  "name": "Presságio da Aposta",
+  "englishName": "Omen of Gambling",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, sua próxima compra em aposta terá 50% de chance de não custar ouro nem consumir este presságio"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenSellVendorRandomise": {
+  "name": "Presságio da Negociação",
+  "englishName": "Omen of Bartering",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, o valor em ouro do seu próximo item vendido será calculado erroneamente pelo vendedor"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenRecombination": {
+  "name": "Presságio da Recombinação",
+  "englishName": "Omen of Recombination",
+  "level": null,
+  "effects": [],
+  "bonded": [],
+  "description": ""
+ },
+ "Metadata/Items/Currency/OmenOnDivineRerollImplicits": {
+  "name": "Presságio dos Abençoados",
+  "englishName": "Omen of the Blessed",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe Divino recriará apenas os modificadores implícitos"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnChaosMapItemRarity": {
+  "name": "Presságio da Raridade Caótica",
+  "englishName": "Omen of Chaotic Rarity",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe do Caos trocará todos os modificadores de uma Pedra-guia por modificadores que não concedem raridade de itens"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnChaosMapPackSize": {
+  "name": "Presságio da Quantidade Caótica",
+  "englishName": "Omen of Chaotic Quantity",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe do Caos trocará todos os modificadores de uma Pedra-guia por modificadores que não concedem tamanho de grupos"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnChaosMapMonsterRarity": {
+  "name": "Presságio dos Monstros Caóticos",
+  "englishName": "Omen of Chaotic Monsters",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe do Caos trocará todos os modificadores de uma Pedra-guia por modificadores que não concedem raridade de monstros"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnChaosMapMonsterEffectiveness": {
+  "name": "Presságio da Efetividade Caótica",
+  "englishName": "Omen of Chaotic Effectiveness",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe do Caos trocará todos os modificadores de uma Pedra-guia por modificadores que não concedem efetividade de monstros"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnChanceNotDestroy": {
+  "name": "Presságio da Chance",
+  "englishName": "Omen of Chance",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe da Chance não destruíra o item"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnChanceAncientOrb": {
+  "name": "Presságio dos Antigos",
+  "englishName": "Omen of the Ancients",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe da Chance atualizará o item para um item único aleatório da mesma categoria"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnDivineSanctify": {
+  "name": "Presságio da Santificação",
+  "englishName": "Omen of Sanctification",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe Divino usado em um item raro o santificará"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnPerfectEssenceSuffix": {
+  "name": "Presságio da Cristalização Destra",
+  "englishName": "Omen of Dextral Crystallisation",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, sua próxima Essência Perfeita ou Corrompida removerá apenas modificadores de sufixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnPerfectEssencePrefix": {
+  "name": "Presságio da Cristalização Canhota",
+  "englishName": "Omen of Sinistral Crystallisation",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, sua próxima Essência Perfeita ou Corrompida removerá apenas modificadores de prefixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnExaltConsumeQuality": {
+  "name": "Presságio da Exaltação Catalisadora",
+  "englishName": "Omen of Catalysing Exaltation",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe Exaltado consumirá toda a qualidade do catalisador para aumentar a chance de um modificador do tipo correspondente"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnAbyssRerollOptions": {
+  "name": "Presságio dos Ecos Abissais",
+  "englishName": "Omen of Abyssal Echoes",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, você pode trocar as opções uma vez na próxima vez que revelar modificadores profanados"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnAbyssGuarenteeLichTypeMod1": {
+  "name": "Presságio do Suserano",
+  "englishName": "Omen of the Sovereign",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, sua próxima tentativa de profanação de arma ou joia garantirá um modificador Ulaman aleatório"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnAbyssGuarenteeLichTypeMod2": {
+  "name": "Presságio do Soberano",
+  "englishName": "Omen of the Liege",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, sua próxima tentativa de profanação de arma ou joia garantirá um modificador Amanamu aleatório"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnAbyssGuarenteeLichTypeMod3": {
+  "name": "Presságio do Sangue-negro",
+  "englishName": "Omen of the Blackblooded",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, sua próxima tentativa de profanação de arma ou joia garantirá um modificador Kurgal aleatório"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnAbyssVeilAllAndCorrupt": {
+  "name": "Presságio da Putrefação",
+  "englishName": "Omen of Putrefaction",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, sua próxima tentativa de profanação substituirá todos os modificadores do item, criando um item com até 6 modificadores ocultos e corrompendo-o"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnAnnulRemoveAbyssMod": {
+  "name": "Presságio da Luz",
+  "englishName": "Omen of Light",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, seu próximo Orbe da Anulação removerá apenas modificadores profanados"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnAbyssAddPrefixes": {
+  "name": "Presságio da Necromancia Canhota",
+  "englishName": "Omen of Sinistral Necromancy",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, sua próxima tentativa de profanação adicionará apenas modificadores de prefixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ },
+ "Metadata/Items/Currency/OmenOnAbyssAddSuffixes": {
+  "name": "Presságio da Necromancia Destra",
+  "englishName": "Omen of Dextral Necromancy",
+  "level": null,
+  "effects": [
+   "Enquanto este item estiver ativo em seu inventário, sua próxima tentativa de profanação adicionará apenas modificadores de sufixo"
+  ],
+  "bonded": [],
+  "description": "Clique com o botão direito neste item em seu inventário para ativá-lo. Ele é consumido ao ser acionado.\nShift + clique para desempilhar."
+ }
+}

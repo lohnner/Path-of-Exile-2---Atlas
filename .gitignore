@@ -1,0 +1,16 @@
+# Projetos separados (não fazem parte do Atlas)
+TwitchChatOverlay/
+PinaculoTimer/
+roleta.html
+tools/start.cmd
+start.lnk
+
+# Dados pessoais de quem usa o app (criados automaticamente)
+data/sessions.json
+data/market.json
+data/economy.json
+data/planner_builds.json
+settings.json
+
+node_modules/
+*.log

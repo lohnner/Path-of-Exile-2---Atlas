@@ -1,0 +1,8 @@
+{
+  "name": "wraeclast-local-atlas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Catálogo local de itens e modificadores de Path of Exile 2",
+  "scripts": { "start": "node server.js" }
+}
